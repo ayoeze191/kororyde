@@ -36,7 +36,7 @@ export default function Home() {
      <Header isHomePage={true}/>
      </div>
      <SideBar />
-      <div className="bg-black px-[37px] md:p-[50px] rounded-[10px] mt-[30px]  lg:mt-[59px] w-full max-w-[655px] mx-auto lg:ml-0">
+      <div className="md:bg-black px-[37px] md:p-[50px] rounded-[10px] mt-[30px]  lg:mt-[59px] w-full max-w-[655px] mx-auto lg:ml-0">
      <div className="bg-white mx-auto lg:mx-0 flex items-center gap-[10px] lg:gap-[20px] px-[20px] py-[5px]  text-[#010101] w-fit rounded-[10px] text-[15px] lg:text-[18px] font-[family-name:var(--font-bricolage-grotesque)]">
       <p>
         <Image src={sparkles} alt="" />
