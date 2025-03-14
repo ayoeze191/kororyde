@@ -206,10 +206,10 @@ Smart Mobility
     <p className="text-[#010101]"><span className="text-[18px] md:text-[25px]  font-bold">James O. –</span> Frequent Commuter
     </p>
     <p className="text[13px] md:text-[18px] leading-[150%] text-[#656565]">
-"KoroRyde has been a game-changer for my daily 
+    &quot KoroRyde has been a game-changer for my daily 
 commute! The drivers are polite, the cars are clean, and the fares
 are super affordable. I love how easy it is to book a ride and track
-my driver in real time!"
+my driver in real time! &quot
     </p>
   </div>
 
@@ -217,9 +217,9 @@ my driver in real time!"
     <p className="text-[#010101]"><span className="text-[18px] md:text-[25px] font-bold">Chinwe A. –</span>  Business Professional
     </p>
     <p className="text[13px] md:text-[18px] leading-[150%] text-[#656565]">
-"As a businesswoman, I need a reliable and professional ride-hailing service, and
+    &quot As a businesswoman, I need a reliable and professional ride-hailing service, and
 KoroRyde delivers every time. The rides are always smooth, and the drivers are
-punctual. I highly recommend it for corporate travel"
+punctual. I highly recommend it for corporate travel &quot
     </p>
   </div>
 
@@ -227,9 +227,9 @@ punctual. I highly recommend it for corporate travel"
     <p className="text-[#010101]"><span className="text-[18px] md:text-[25px] font-bold">Tunde E. –</span> First-Time User
     </p>
     <p className="text[13px] md:text-[18px] leading-[150%] text-[#656565]">
-"I was skeptical at first, but KoroRyde exceeded my expectations.
+    &quot I was skeptical at first, but KoroRyde exceeded my expectations.
 The sign-up process was seamless, and my first ride was hassle-free.
-Definitely my go-to ride-hailing app from now"
+Definitely my go-to ride-hailing app from now &quot
     </p>
   </div>
 </div>
@@ -242,10 +242,10 @@ Definitely my go-to ride-hailing app from now"
     <p className="text-[#010101]"><span className="text-[18px] md:text-[25px] font-bold">Grace M. –</span> Student
     </p>
     <p className="text[13px] md:text-[18px] leading-[150%] text-[#656565]">
-"KoroRyde is a lifesaver for students like me! The fares
+    &quot KoroRyde is a lifesaver for students like me! The fares
 are budget-friendly, and I always feel safe, especially with the in-app
 safety features. I don’t have to worry about getting
-around the city anymore."
+around the city anymore. &quot
     </p>
   </div>
 
@@ -253,9 +253,9 @@ around the city anymore."
     <p className="text-[#010101]"><span className="text-[18px] md:text-[25px] font-bold">Babatunde K. –</span>  Driver Partner
     </p>
     <p className="text-[13px] md:text-[18px] leading-[150%] text-[#656565]">
-"As a KoroRyde driver, I appreciate how fair the company is to its drivers. The
+    &quot As a KoroRyde driver, I appreciate how fair the company is to its drivers. The
 earnings are good, the app is easy to use, and I get to meet amazing passengers
-every day. Best decision I made!"
+every day. Best decision I made! &quot
     </p>
   </div>
 
@@ -263,9 +263,9 @@ every day. Best decision I made!"
     <p className="text-[#010101]"><span className="text-[18px] md:text-[25px] font-bold">Amina S –</span> Mother of Two
     </p>
     <p className="text[13px] md:text-[18px] leading-[150%] text-[#656565]">
-"I use KoroRyde whenever I need a safe and reliable ride with my kids.
+    &quot I use KoroRyde whenever I need a safe and reliable ride with my kids.
 The drivers are patient and professional, and I love that I can schedule rides in
-advance. It makes life so much easier!"
+advance. It makes life so much easier! &quot
     </p>
   </div>
 </div>
