@@ -6,17 +6,17 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import Image from 'next/image';
-import picture1 from "./../../public/assets/picture1.png"
-import picture2 from "./../../public/assets/picture2.png"
-import picture3 from "./../../public/assets/picture3.png"
-import picture4 from "./../../public/assets/picture4.png"
-import picture6 from "./../../public/assets/picture6.png"
-import picture7 from "./../../public/assets/picture7.png"
-import picture8 from "./../../public/assets/picture8.png"
-import picture9 from "./../../public/assets/picture9.png"
-import picture10 from "./../../public/assets/picture10.png"
-import picture11 from "./../../public/assets/picture11.png"  
-import picture5 from "./../../public/assets/picture5.png"
+import picture1 from "./../../public/assets/picture1.webp"
+import picture2 from "./../../public/assets/picture2.webp"
+import picture3 from "./../../public/assets/picture3.webp"
+import picture4 from "./../../public/assets/picture4.webp"
+import picture6 from "./../../public/assets/picture6.webp"
+import picture7 from "./../../public/assets/picture7.webp"
+import picture8 from "./../../public/assets/picture8.webp"
+import picture9 from "./../../public/assets/picture9.webp"
+import picture10 from "./../../public/assets/picture10.webp"
+import picture11 from "./../../public/assets/picture11.webp"  
+import picture5 from "./../../public/assets/picture5.webp"
 const pictures = [picture1, picture2, picture3, picture4]
 const ImageSlider = () => {
     return  <Swiper

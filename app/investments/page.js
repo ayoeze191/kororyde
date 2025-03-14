@@ -3,13 +3,13 @@ import Image from "next/image"
 const { default: Footer } = require("../Footer")
 const { default: FooterBg } = require("../FooterBg")
 const { default: Header } = require("../Header")
-import invest from "./../../public/assets/Invest.png"
-import cng from "./../../public/assets/CNG.png"
-import bike from "./../../public/assets/bike.png"
-import elipse1 from "./../../public/assets/Ellipse 1.png"
-import elipse2 from "./../../public/assets/Ellipse 2.png"
-import elipse3 from "./../../public/assets/Ellipse 3.png"
-import elipse4 from "./../../public/assets/Ellipse 4.png"
+import invest from "./../../public/assets/Invest.webp"
+import cng from "./../../public/assets/CNG.webp"
+import bike from "./../../public/assets/bike.webp"
+import elipse1 from "./../../public/assets/Ellipse 1.webp"
+import elipse2 from "./../../public/assets/Ellipse 2.webp"
+import elipse3 from "./../../public/assets/Ellipse 3.webp"
+import elipse4 from "./../../public/assets/Ellipse 4.webp"
 import OverallLayout from "../OverallLayout"
 
 
@@ -20,7 +20,7 @@ const Page = () => {
         <div className="px-[20px] md:px-[112px]">
     <Header isHomePage={false}/>
     </div>
-    <div className="mt-[100px] bg-[url('/assets/ServiceHeroBg.png')] bg-cover py-[113px]">
+    <div className="mt-[100px] bg-[url('/assets/ServiceHeroBg.webp')] bg-cover py-[113px]">
     <p className="text-[#2D7CD0] text-[30px] md:text-[50px] font-bold leading-[150%]
     font-[family-name:var(--font-bricolage-grotesque)] text-center [text-shadow:3px_2px_0px_0px_#252B42]
     ">Investment Oppurtuinities</p>
@@ -129,7 +129,7 @@ a sustainable, efficient, and profitable transport network.
       </div>
 
 
-<div className="relative bg-[url('/assets/background.png')] bg-no-repeat bg-cover pt-[100px] pb-[210px] mt-[100px] w-full md:rounded-[10px] max-w-[1153px] mx-auto" >
+<div className="relative bg-[url('/assets/background.webp')] bg-no-repeat bg-cover pt-[100px] pb-[210px] mt-[100px] w-full md:rounded-[10px] max-w-[1153px] mx-auto" >
     <div className="flex gap-[10px] items-center justify-center">
         <Image src={elipse1} alt=""/>
         <Image src={elipse2} alt=""/>

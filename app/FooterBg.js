@@ -1,7 +1,7 @@
 const { default: Image } = require("next/image")
-import google from "./../public/assets/google.png"
-import apple from "./../public/assets/apple.png"
-import group from "./../public/assets/Group.png"
+import google from "./../public/assets/google.webp"
+import apple from "./../public/assets/apple.webp"
+import group from "./../public/assets/Group.webp"
 
 const FooterBg = () => {
     return <div className=" relative flex justify-center flex-col  items-center">

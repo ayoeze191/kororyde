@@ -2,12 +2,12 @@ const { default: Header } = require("../Header")
 import Footer from "../Footer"
 import FooterBg from "../FooterBg"
 import OverallLayout from "../OverallLayout"
-import service1 from "./../../public/assets/service1.png"
-import service2 from "./../../public/assets/service2.png"
-import service3 from "./../../public/assets/service3.png"
-import service4 from "./../../public/assets/Service4.png"
-import service5 from "./../../public/assets/Service5.png"
-import service6 from "./../../public/assets/Service6.png"
+import service1 from "./../../public/assets/service1.webp"
+import service2 from "./../../public/assets/service2.webp"
+import service3 from "./../../public/assets/service3.webp"
+import service4 from "./../../public/assets/Service4.webp"
+import service5 from "./../../public/assets/Service5.webp"
+import service6 from "./../../public/assets/Service6.webp"
 
 import Service from "./Service"
 const allservices = [
@@ -50,7 +50,7 @@ const Services = () => {
         <div className="px-[20px] md:px-[112px]">
     <Header isHomePage={false}/>
     </div>
-    <div className="mt-[100px] bg-[url('/assets/ServiceHeroBg.png')] bg-cover py-[22px] px-[20px] md:px-0 md:py-[113px]">
+    <div className="mt-[100px] bg-[url('/assets/ServiceHeroBg.webp')] bg-cover py-[22px] px-[20px] md:px-0 md:py-[113px]">
     <p className="text-[#2D7CD0] text-[30px] md:text-[50px] font-bold leading-[150%]
     font-[family-name:var(--font-bricolage-grotesque)] text-center [text-shadow:3px_2px_0px_0px_#252B42]
     ">Product & Services</p>

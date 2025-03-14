@@ -1,9 +1,9 @@
 const { default: Header } = require("../Header")
-import location from "./../../public/assets/location.png"
-import phone from "./../../public/assets/phone.png"
-import mail from "./../../public/assets/mail.png"
-import call from "./../../public/assets/call.png"
-import website from "./../../public/assets/website.png"
+import location from "./../../public/assets/location.webp"
+import phone from "./../../public/assets/phone.webp"
+import mail from "./../../public/assets/mail.webp"
+import call from "./../../public/assets/call.webp"
+import website from "./../../public/assets/website.webp"
 import Image from "next/image"
 import FooterBg from "../FooterBg"
 import Footer from "../Footer"
@@ -20,7 +20,7 @@ const ContactUs = () => {
         <div className="px-[20px] md:px-[112px]">
     <Header isHomePage={false}/>
     </div>
-    <div className="mt-[100px] bg-[url('/assets/ServiceHeroBg.png')] bg-cover py-[113px]">
+    <div className="mt-[100px] bg-[url('/assets/ServiceHeroBg.webp')] bg-cover py-[113px]">
     <p className="text-[#2D7CD0] text-[50px] font-bold leading-[150%]
     font-[family-name:var(--font-bricolage-grotesque)] text-center [text-shadow:3px_2px_0px_0px_#252B42]
     ">Contact Us</p>

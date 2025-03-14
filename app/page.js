@@ -1,28 +1,28 @@
 import Image from "next/image";
-// import HeroBg from "./../assets/HeroBg.png"
-import sparkles from "./../public/assets/sparkles.png"
-import apple from "./../public/assets/apple.png"
-import google from "./../public/assets/google.png"
-import service1 from "./../public/assets/service1.png"
-import service2 from "./../public/assets/service2.png"
-import service3 from "./../public/assets/service3.png"
-import heroBg from "./../public/assets/HeroBg.png"
-import arrowup from "./../public/assets/arrowupright.png"
-import safeandaffordavle from "./../public/assets/SafeandAffordable.png"
-import green from "./../public/assets/green.png"
-import delivery from "./../public/assets/delivery.png"
-import investment from "./../public/assets/investment.png"
-import picture6 from "./../public/assets/picture6.png"
-import picture7 from "./../public/assets/picture7.png"
-import picture5 from "./../public/assets/picture5.png"
-import picture1 from "./../public/assets/picture1.png"
-import picture2 from "./../public/assets/picture2.png"
-import picture3 from "./../public/assets/picture3.png"
-import picture4 from "./../public/assets/picture4.png"
-import picture8 from "./../public/assets/picture8.png"
-import picture9 from "./../public/assets/picture9.png"
-import picture10 from "./../public/assets/picture10.png"
-import picture11 from "./../public/assets/picture11.png"
+// import HeroBg from "./../assets/HeroBg.webp"
+import sparkles from "./../public/assets/sparkles.webp"
+import apple from "./../public/assets/apple.webp"
+import google from "./../public/assets/google.webp"
+import service1 from "./../public/assets/service1.webp"
+import service2 from "./../public/assets/service2.webp"
+import service3 from "./../public/assets/service3.webp"
+import heroBg from "./../public/assets/HeroBg.webp"
+import arrowup from "./../public/assets/arrowupright.webp"
+import safeandaffordavle from "./../public/assets/SafeandAffordable.webp"
+import green from "./../public/assets/green.webp"
+import delivery from "./../public/assets/delivery.webp"
+import investment from "./../public/assets/investment.webp"
+import picture6 from "./../public/assets/picture6.webp"
+import picture7 from "./../public/assets/picture7.webp"
+import picture5 from "./../public/assets/picture5.webp"
+import picture1 from "./../public/assets/picture1.webp"
+import picture2 from "./../public/assets/picture2.webp"
+import picture3 from "./../public/assets/picture3.webp"
+import picture4 from "./../public/assets/picture4.webp"
+import picture8 from "./../public/assets/picture8.webp"
+import picture9 from "./../public/assets/picture9.webp"
+import picture10 from "./../public/assets/picture10.webp"
+import picture11 from "./../public/assets/picture11.webp"
 
 
 // import service3 from "./../public/assets"
@@ -38,8 +38,8 @@ export default function Home() {
   return (
     <OverallLayout>
     <div className="">
-     <div className="lg:min-h-screen bg-no-repeat bg-cover lg:px-[112px] lg:py-[64px]  py-[60px] bg-[url('/assets/HeroBg.png')] bg-[#010101]" style={{
-      //  backgroundImage: "url('/assets/HeroBg.png')",
+     <div className="lg:min-h-screen bg-no-repeat bg-cover lg:px-[112px] lg:py-[64px]  py-[60px] bg-[url('/assets/HeroBg.webp')] bg-[#010101]" style={{
+      //  backgroundImage: "url('/assets/HeroBg.webp')",
      }}>
       <div className="px-[20px]">
      <Header isHomePage={true}/>
@@ -141,7 +141,7 @@ Smart Mobility
      </div>
 
      <div className=" px-[26px] md:px-[140px] mx-auto bg-white py-[40px] md:py-[130px]" style={{
-       backgroundImage: "url('/assets/Frame.png')"}}>
+       backgroundImage: "url('/assets/Frame.webp')"}}>
       <div className="md:grid flex flex-col md:grid-cols-2 gap-[34px] md:gap-[60px]  mx-auto ">
        <div>
         <div className="relative">

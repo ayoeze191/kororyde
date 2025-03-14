@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image"
-import logo from "./../public/assets/logo.png"
+import logo from "./../public/assets/logo.webp"
 import { useSidebar } from "@/Context"
 import { useRouter } from "next/navigation"
 const SideBar = ({show}) => {

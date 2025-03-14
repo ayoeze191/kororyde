@@ -1,15 +1,15 @@
 import Image from "next/image"
 import Header from "../Header"
-import invest from "./../../public/assets/Invest.png"
+import invest from "./../../public/assets/Invest.webp"
 import Template, { TemplateTwo } from "./temp"
-import empowering from "./../../public/assets/Enpowering.png"
-import delivery from "./../../public/assets/Delivery.png"
-import sustainability from "./../../public/assets/sustainability.png"
-import social from "./../../public/assets/Social.png"
-import facebook from "./../../public/assets/facebook.png"
-import instagram from "./../../public/assets/instagram.png"
-import linkedln from "./../../public/assets/linkedin.png"
-import twitter from "./../../public/assets/twitter.png"
+import empowering from "./../../public/assets/Enpowering.webp"
+import delivery from "./../../public/assets/Delivery.webp"
+import sustainability from "./../../public/assets/sustainability.webp"
+import social from "./../../public/assets/Social.webp"
+import facebook from "./../../public/assets/facebook.webp"
+import instagram from "./../../public/assets/instagram.webp"
+import linkedln from "./../../public/assets/linkedin.webp"
+import twitter from "./../../public/assets/twitter.webp"
 import FooterBg from "../FooterBg"
 import Footer from "../Footer"
 
@@ -20,7 +20,7 @@ const Page = () => {
         <div className="px-[20px] md:px-[112px]">
     <Header isHomePage={false}/>
     </div>
-    <div className="mt-[100px] bg-[url('/assets/ServiceHeroBg.png')] bg-cover py-[113px]">
+    <div className="mt-[100px] bg-[url('/assets/ServiceHeroBg.webp')] bg-cover py-[113px]">
     <p className="text-[#2D7CD0] text-[30px] md:text-[50px] font-bold leading-[150%]
     font-[family-name:var(--font-bricolage-grotesque)] text-center [text-shadow:3px_2px_0px_0px_#252B42]
     ">About Us</p>

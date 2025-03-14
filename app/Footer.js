@@ -1,6 +1,6 @@
 import Image from "next/image"
-import logo from "./../public/assets/logo.png"
-import arrowup from "./../public/assets/arrowupright.png"
+import logo from "./../public/assets/logo.webp"
+import arrowup from "./../public/assets/arrowupright.webp"
 
 const Footer = () => {
     return(
