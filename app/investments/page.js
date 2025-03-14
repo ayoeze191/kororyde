@@ -11,6 +11,9 @@ import elipse2 from "./../../public/assets/Ellipse 2.webp"
 import elipse3 from "./../../public/assets/Ellipse 3.webp"
 import elipse4 from "./../../public/assets/Ellipse 4.webp"
 import OverallLayout from "../OverallLayout"
+import MakeMoney from "./../../public/assets/makeMoney.webp"
+import MakeMoney1 from "./../../public/assets/makeMoney1.webp"
+import MakeMoney3 from "./../../public/assets/MakeMoney2.webp"
 
 
 const Page = () => {
@@ -67,7 +70,8 @@ a sustainable, efficient, and profitable transport network.
 ✅ Contribute to a cleaner and more affordable transport system.<br/>
         </p>
             <button className="bg-[#2D7CD0] px-[30px] py-[16.5px] text-[18px] font-bold leading-[150%] mt-[50px] rounded-[10px] text-[#FDFDFD]">
-            Start investing today
+          <a href="https://kororyde.com.ng/cng-financing/">  Start investing today</a>
+
         </button>
         </div>
 
@@ -82,7 +86,7 @@ a sustainable, efficient, and profitable transport network.
 ✅ Join the green energy revolution while making money!<br/>
         </p>
             <button className="bg-[#2D7CD0] px-[30px] py-[16.5px] text-[18px] font-bold leading-[150%] mt-[50px] rounded-[10px] text-[#FDFDFD]">
-            Start investing today
+          <a href="https://kororyde.com.ng/ev-riders/">  Start investing today</a>
         </button>
         </div>
       </div>
@@ -92,7 +96,7 @@ a sustainable, efficient, and profitable transport network.
         
 <div className="mx-auto max-w-[1402px] flex flex-col md:flex-row px-[20px]  gap-[60px] mt-[50px]">
 <div className=" bg-[#2D7CD0] p-[10px] md:p-0 rounded-[10px]">
-        <Image src={cng} alt="" className="h-[200px] object-cover"/>
+        <Image src={MakeMoney} alt="" className="h-[200px] object-cover"/>
         <p className="mt-[20px] text-[#FEFEFE] text-[18px] md:text-[25px] font-bold font-[family-name:var(--font-bricolage-grotesque)] px-[20px]">How You Make Money</p>
         <ol className="list-decimal  w-full px-[35px]  font-[var(--font-bricolage-grotesque)] mt-4 md:mt-8  text-[#656565] leading-[150%]">
   <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">Invest in a CNG car or EV bike.</li>
@@ -104,7 +108,7 @@ a sustainable, efficient, and profitable transport network.
         </div>
 
         <div className=" bg-[#2D7CD0] p-[10px] md:p-0 rounded-[10px]">
-        <Image src={cng} alt="" className="h-[200px] object-cover"/>
+        <Image src={MakeMoney1} alt="" className="h-[200px] object-cover"/>
         <p className="mt-[20px] text-[#FEFEFE] text-[18px] md:text-[25px] font-bold font-[family-name:var(--font-bricolage-grotesque)] px-[20px]">How You Make Money</p>
         <ol className="list-decimal  w-full px-[35px]  font-[var(--font-bricolage-grotesque)] mt-4 md:mt-8  text-[#656565] leading-[150%]">
   <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">Invest in a CNG car or EV bike.</li>
@@ -116,7 +120,7 @@ a sustainable, efficient, and profitable transport network.
         </div>
 
         <div className=" bg-[#2D7CD0] p-[10px] md:p-0 rounded-[10px]">
-        <Image src={cng} alt="" className="h-[200px] object-cover"/>
+        <Image src={MakeMoney3} alt="" className="h-[200px] object-cover"/>
         <p className="mt-[20px] text-[#FEFEFE] text-[18px] md:text-[25px] font-bold font-[family-name:var(--font-bricolage-grotesque)] px-[20px]">How You Make Money</p>
         <ol className="list-decimal  w-full px-[35px]  font-[var(--font-bricolage-grotesque)] mt-4 md:mt-8  text-[#656565] leading-[150%]">
   <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">Invest in a CNG car or EV bike.</li>
