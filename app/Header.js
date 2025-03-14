@@ -14,7 +14,7 @@ export default function Navbar({ isHomePage }) {
       <div
         className={`py-[8px] md:py-[14px] ${
           isHomePage ? 'backdrop-blur-[20px] border-[#FEFEFE]' : 'bg-[#2D7CD0] border-[#2D7CD0]'
-        } flex justify-between items-center border-[1.5px] rounded-[50px] px-[10px] sm:px-[16px] md:px-[24px] lg:px-[32px] xl:px-[64px] max-w-[1280px] mx-auto`}
+        } flex justify-between items-center border-[1.5px] rounded-[50px] px-[10px] sm:px-[16px] md:px-[24px] lg:px-[32px] xl:px-[64px] mx-auto`}
       >
         {/* ✅ Logo */}
         <div className="w-auto">
