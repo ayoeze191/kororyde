@@ -101,8 +101,8 @@ to you as soon as possible:</p>
 </div>
     </div>
 <div className="mt-[200px]">
-    {/* <FooterBg/> */}
-    {/* <Footer /> */}
+    <FooterBg/>
+    <Footer />
     </div>
     </div>
     </div>
