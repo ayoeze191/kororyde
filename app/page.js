@@ -263,8 +263,8 @@ Smart Mobility
 </div>
      </div>
 
-     <div className="bg-white py-[150px]">
-      <p className="text-[50px] mb-[50px] text-[#2D7CD0] leading-[150%]  font-[family-name:var(--font-bricolage-grotesque)] font-bold text-center [text-shadow:3px_2px_0px_0px_#252B42]
+     <div className="bg-white py-[50px] md:py-[150px]">
+      <p className="text-[25px] md:text-[50px] mb-[50px] text-[#2D7CD0] leading-[150%]  font-[family-name:var(--font-bricolage-grotesque)] font-bold text-center [text-shadow:3px_2px_0px_0px_#252B42]
 ">Testimonies</p>
 <div className="flex gap-4 mb-4  flex-col md:flex-row md:gap-10 scrollbar-hide overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide md:mb-10 px-4 md:px-8 lg:px-16">
   {[
