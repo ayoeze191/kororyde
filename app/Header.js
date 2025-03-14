@@ -18,7 +18,7 @@ export default function Navbar({ isHomePage }) {
       >
         {/* ✅ Logo */}
         <div className="w-auto">
-          <Image src={logo} width={80} height={40} alt="Logo" className="md:w-[100px] md:h-[50px]" />
+          <Image src={logo} width={80} height={40} alt="Logo" className="w-[initial] h-[initial]" />
         </div>
 
         {/* ✅ Desktop Navigation */}
