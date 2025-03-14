@@ -187,7 +187,7 @@ Smart Mobility
      </div>
 
      <div className="bg-white  text-[#010101] pt-[150px]">
-      <p className="text-[25px] max-w-[268px] md:max-w-[initial] md:text-[50px] leading-[150%]  font-[family-name:var(--font-bricolage-grotesque)] font-bold text-center [text-shadow:3px_2px_0px_0px_#2D7CD0]
+      <p className="text-[25px] mx-auto max-w-[268px] md:max-w-[initial] md:text-[50px] leading-[150%]  font-[family-name:var(--font-bricolage-grotesque)] font-bold text-center [text-shadow:3px_2px_0px_0px_#2D7CD0]
 ">What pictures have to say about<br/>
       KoroRyde</p>
       <div className="flex gap-[40px] overflow-x-scroll mt-[50px] w-full">
