@@ -143,16 +143,20 @@ Smart Mobility
      <div className=" px-[26px] md:px-[140px] mx-auto bg-white py-[40px] md:py-[130px]" style={{
        backgroundImage: "url('/assets/Frame.webp')"}}>
       <div className="md:grid flex flex-col md:grid-cols-2 gap-[34px] md:gap-[60px]  mx-auto ">
-       <div>
-        <div className="relative">
+       <div className="">
+        <div className="relative rounded-[10px]">
           <div className="overlay absolute w-full h-full top-0 bg-black opacity-[0.3] z-1"></div>
-          <Image src={safeandaffordavle} alt="" className="w-full"/>
+          <div className="h-full rounded-[10px]"><Image src={safeandaffordavle} alt="" className="w-full h-full"/></div>
+          {/* <div className="absolute rounded-[10px] h-full bg-[#2D7CD0] top-0 w-full ">
+          
+        </div> */}
           <p className="z-2 text-[#FEFEFE] font-bold font-[family-name:var(--font-bricolage-grotesque)] text-[18px] md:text-[40px] top-[8px] md:top-[27px] left-[17px] absolute">Safety & ease</p>
         </div>
         <div className="text-[#010101] mt-[20px] font-bold font-[family-name:var(--font-bricolage-grotesque)] text-[13px] md:text-[25px] leading-[150%]">
         <p>Safe and affordable</p>
         <p>Transportation</p>
         </div>
+       
        </div>
 
        <div className="">
