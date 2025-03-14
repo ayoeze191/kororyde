@@ -29,10 +29,12 @@ export default function Home() {
   return (
     <OverallLayout>
     <div className="">
-     <div className="lg:min-h-screen bg-no-repeat bg-cover lg:px-[112px] lg:py-[64px] px-[20px] py-[60px] lg:bg-[url('/assets/HeroBg.png')] bg-[#010101]" style={{
+     <div className="lg:min-h-screen bg-no-repeat bg-cover lg:px-[112px] lg:py-[64px]  py-[60px] lg:bg-[url('/assets/HeroBg.png')] bg-[#010101]" style={{
       //  backgroundImage: "url('/assets/HeroBg.png')",
      }}>
+      <div className="px-[20px]">
      <Header isHomePage={true}/>
+     </div>
      <SideBar />
       <div className="bg-black px-[37px] md:p-[50px] rounded-[10px] mt-[30px]  lg:mt-[59px] w-full max-w-[655px] mx-auto lg:ml-0">
      <div className="bg-white mx-auto lg:mx-0 flex items-center gap-[10px] lg:gap-[20px] px-[20px] py-[5px]  text-[#010101] w-fit rounded-[10px] text-[15px] lg:text-[18px] font-[family-name:var(--font-bricolage-grotesque)]">
@@ -40,7 +42,7 @@ export default function Home() {
         <Image src={sparkles} alt="" />
       </p>
       Welcome to KoroRYDE</div>
-     <div className="font-[family-name:var(--font-bricolage-grotesque)] font-bold leading-[150%] text-[30px] text-center lg:text-left lg:text-[60px] mt-[30px] md:mt-[50px] text-[#FEFEFE]" > 
+     <div className=" font-[family-name:var(--font-bricolage-grotesque)] font-bold leading-[150%] text-[30px] text-center lg:text-left lg:text-[60px] mt-[30px] md:mt-[50px] text-[#FEFEFE]" > 
      The Future of 
 Smart Mobility 
 & Logistics
