@@ -73,8 +73,8 @@ Smart Mobility
 
 
      <div className=" bg-white ">
-        <p className="text-[#2D7CD0] text-[30px] md:text-[50px] font-bold pt-[50px] w-[179px] mx-auto md:pt-[150px] mb-[50px] md:w-full text-center font-[family-name:var(--font-bricolage-grotesque)] [text-shadow:3px_2px_0px_#252B42]">KoroRYDE in numbers</p>
-        <div className="flex md:gap-[154px] gap-[27px] mx-auto w-fit mt-[50px]">
+        <p className="text-[#2D7CD0] text-[30px] md:text-[50px] font-bold pt-[50px] w-[179px] mx-auto md:pt-[150px]  md:w-full text-center font-[family-name:var(--font-bricolage-grotesque)] [text-shadow:3px_2px_0px_#252B42]">KoroRYDE in numbers</p>
+        <div className="flex md:gap-[154px] gap-[27px] flex-col md:flex-row mx-auto w-fit mt-[30px] md:mt-[50px] ">
           {[{numb: 100, title: 'CNG Cars'}, {numb: 500, title: 'EV Bikes'}, {numb: 50, title: 'EV Cars'}, {numb: 12250, title: 'Total Rides'}].map((kor, index) => {
             return           <div key={index} className="flex flex-col text-center text-[18px]">
             <p className="text-[#010101] text-[25px] md:text-[50px] font-bold leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] "  >{kor.numb}+</p>
