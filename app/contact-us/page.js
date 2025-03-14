@@ -83,7 +83,7 @@ const ContactUs = () => {
 
     </div>
 {/* Contact Form */}
-    <div className="bg-[#F6F6F6] px-[100px] max-w-[839px] mx-auto mt-[100px] py-[50px]">
+    <div className="bg-[#F6F6F6] px-[20px] md:px-[100px] max-w-[839px] mx-auto mt-[100px] py-[50px]">
     <p className="text-[#030303] text-[50px] font-bold leading-[150%]
     font-[family-name:var(--font-bricolage-grotesque)] text-center [text-shadow:3px_2px_0px_0px_#2D7CD0]
     ">Contact Form</p>
