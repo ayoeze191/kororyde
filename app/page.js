@@ -266,7 +266,7 @@ Smart Mobility
      <div className="bg-white py-[150px]">
       <p className="text-[50px] mb-[50px] text-[#2D7CD0] leading-[150%]  font-[family-name:var(--font-bricolage-grotesque)] font-bold text-center [text-shadow:3px_2px_0px_0px_#252B42]
 ">Testimonies</p>
-<div className="flex gap-4 flex-col md:flex-row md:gap-10 overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide md:mb-10 px-4 md:px-8 lg:px-16">
+<div className="flex gap-4 mb-4  flex-col md:flex-row md:gap-10 overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide md:mb-10 px-4 md:px-8 lg:px-16">
   {[
     { name: 'James O.', role: 'Frequent Commuter', text: "KoroRyde has been a game-changer for my daily commute! The drivers are polite, the cars are clean, and the fares are super affordable. I love how easy it is to book a ride and track my driver in real time!" },
     { name: 'Chinwe A.', role: 'Business Professional', text: "As a businesswoman, I need a reliable and professional ride-hailing service, and KoroRyde delivers every time. The rides are always smooth, and the drivers are punctual. I highly recommend it for corporate travel." },
