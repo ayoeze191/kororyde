@@ -2,8 +2,9 @@
 import { useSidebar } from '@/Context';
 import Image from 'next/image';
 import Link from 'next/link';
-
-export default function Navbar({ isHomePage, logo, hamburger }) {
+import hamburger from "./../public/assets/hambuger.png"
+import logo from "./../public/assets/logo.png"
+export default function Navbar({ isHomePage }) {
   const { isSidebarOpen, toggleSidebar } = useSidebar();
 
   return (
