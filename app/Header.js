@@ -42,7 +42,7 @@ export default function Navbar({ isHomePage }) {
         </div>
 
         {/* ✅ Mobile Menu Button */}
-        <button onClick={toggleSidebar} className="lg:hidden">
+        <button onClick={toggleSidebar} className="lg:hidden cursor-pointer">
           <Image src={hamburger} width={32} height={32} alt="Menu" className="w-[28px] h-[28px] md:w-[36px] md:h-[36px]" />
         </button>
       </div>
