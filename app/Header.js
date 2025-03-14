@@ -21,7 +21,7 @@ const Header = ({isHomePage}) => {
         // <div className={`${isSticky&&'w-full px-[112px] fixed left-0 shadow'}`}>
          <div className={`py-[13px] md:py-[20px] ${isHomePage ? 'backdrop-blur-[35px] border-[#FEFEFE]':'bg-[#2D7CD0] border-[#2D7CD0]'} flex justify-between items-center  border-[2px] rounded-[100px]  px-[12.25px] md:px-[100px]
               `}>
-              <div className="flex-1"><Image src={logo} alt=""/></div>
+              <div className="flex-1 w-[178px] md:w-[initial]"><Image src={logo} alt=""/></div>
               <div className="lg:flex hidden  gap-[50px] items-center font-[family-name:var(--font-bricolage-grotesque)] text-[#FEFEFE]">
               <div className=" border-[#FEFEFE] flex gap-[30px] text-[18px]">
                 <Link prefetch={false}  href={'/'} className="md:text-[16px] lg:text-[18px] leading-[150%] font-bold font-[family-name:var(--font-bricolage-grotesque)]">Home</Link>

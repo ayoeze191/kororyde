@@ -49,18 +49,18 @@ Smart Mobility
       KoroRYDE is a next-generation ride-hailing and delivery platform
      </p>
      <div className="flex gap-[20px] items-center mt-[30px] lg:mt-[50px] justify-center lg:justify-start">
-      <div className="flex bg-[#252B42] py-[8.6px] px-[15.21px] lg:py-[20px] lg:px-[33.5px] items-center gap-[11.49px] lg:gap-[25px]  border-white border rounded-[10px]">
+      <div className="flex bg-[#252B42] py-[8.6px] px-[13.21px] lg:py-[20px] lg:px-[33.5px] items-center gap-[11.49px] lg:gap-[25px]  border-white border rounded-[10px]">
         <Image src={google} alt="" className="w-[15.94px] h-[18.33px] lg:w-[initial] lg:h-[initial]"/>
         <div>
           <p className="font-[family-name:var(--font-montserrat)] font-bold lg:leading-[24px] text-[6.76px] leading-[11.59px] lg:text-[14px] text-white">Download on the</p>
           <h2 className="font-[family-name:var(--font-montserrat)] text-[9.6px] leading-[14.49px] lg:leading-[initial] lg:text-[20px] text-white">Google play</h2>
         </div>
       </div>
-      <div className="flex bg-[#252B42] py-[8.6px] px-[15.21px] lg:py-[20px] lg:px-[33.5px] items-center gap-[11.49px] lg:gap-[25px]  border-white border rounded-[10px]">
-        <Image src={apple} alt="" className="w-[15.94px] h-[18.33px] lg:w-[initial] lg:h-[initial]" />
+      <div className="flex bg-[#252B42] py-[8.6px] px-[13.21px] lg:py-[20px] lg:px-[33.5px] items-center gap-[11.49px] lg:gap-[25px]  border-white border rounded-[10px]">
+        <Image src={apple} alt="" className="w-[15.94px] h-[18.33px] lg:w-[initial] lg:h-[initial]"/>
         <div>
-          <p className="font-[family-name:var(--font-montserrat)] font-bold lg:leading-[24px] text-[6.76px] leading-[11.59px] lg:text-[14px] text-white" >Download on the</p>
-          <h2 className="font-[family-name:var(--font-montserrat)] text-[9.6px] leading-[14.49px] lg:leading-[initial] lg:text-[20px] text-white">App Store</h2>
+          <p className="font-[family-name:var(--font-montserrat)] font-bold lg:leading-[24px] text-[6.76px] leading-[11.59px] lg:text-[14px] text-white">Download on the</p>
+          <h2 className="font-[family-name:var(--font-montserrat)] text-[9.6px] leading-[14.49px] lg:leading-[initial] lg:text-[20px] text-white">Apple Store</h2>
         </div>
       </div>
      </div>

@@ -13,7 +13,7 @@ const SideBar = ({show}) => {
     }
    return <div className="flex fixed h-full px-[20px] w-full flex-col left-0 bg-[#2D7CD0] top-0 py-[70px] md:hidden z-10"
    style={{
-    'transform': show?'translateY(0)':'translateY(-1000px)',
+    'transform': show?'translateY(0)':'translateY(-50000px)',
     'transition': 'all 0.3s'
    }}
    >
