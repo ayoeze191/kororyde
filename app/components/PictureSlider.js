@@ -66,10 +66,10 @@ export const ImageSliderThree = () => {
         loop={true}
         autoplay={{ delay: 5000 }}
         breakpoints={{
-          320: { slidesPerView: 1.5, spaceBetween: 10 }, // Small phones
-          480: { slidesPerView: 2, spaceBetween: 15 },
-          768: { slidesPerView: 3, spaceBetween: 20 }, // Tablets
-          1024: { slidesPerView: 3.7, spaceBetween: 30 }, // Large screens
+          320: { slidesPerView: 1.5, spaceBetween: 5 }, // Reduced gap for small phones
+          480: { slidesPerView: 2, spaceBetween: 10 }, // Slightly reduced gap
+          768: { slidesPerView: 3, spaceBetween: 15 }, // Tablets
+          1024: { slidesPerView: 3.7, spaceBetween: 20 }, // Large screens
         }}
       >
         {images.map((image, index) => (
@@ -82,6 +82,7 @@ export const ImageSliderThree = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      
       
     );
   };

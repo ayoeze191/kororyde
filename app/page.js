@@ -35,7 +35,7 @@ export default function Home() {
       <div className="px-[20px]">
      <Header isHomePage={true}/>
      </div>
-     <SideBar />
+     {/* <SideBar /> */}
       <div className="md:bg-black px-[37px] md:p-[50px] rounded-[10px] mt-[30px]  lg:mt-[59px] w-full max-w-[655px] mx-auto lg:ml-0">
      <div className="bg-white mx-auto lg:mx-0 flex items-center gap-[10px] lg:gap-[20px] px-[20px] py-[5px]  text-[#010101] w-fit rounded-[10px] text-[15px] lg:text-[18px] font-[family-name:var(--font-bricolage-grotesque)]">
       <p>
@@ -190,9 +190,10 @@ Smart Mobility
       <p className="text-[25px] mx-auto max-w-[268px] md:max-w-[initial] md:text-[50px] leading-[150%]  font-[family-name:var(--font-bricolage-grotesque)] font-bold text-center [text-shadow:3px_2px_0px_0px_#2D7CD0]
 ">What pictures have to say about<br/>
       KoroRyde</p>
-      <div className="flex gap-[40px] overflow-x-scroll mt-[50px] w-full">
-       <ImageSlider />
-      </div>
+      <div className="flex gap-[10px] overflow-x-scroll mt-[50px] w-full">
+  <ImageSlider />
+</div>
+
       <div className="mt-10 flex flex-wrap gap-4 justify-center w-full px-4 md:px-8 lg:px-16">
       <div className="flex gap-[10px] overflow-x-auto whitespace-nowrap p-2">
   <Image
