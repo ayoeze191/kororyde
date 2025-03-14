@@ -222,7 +222,7 @@ Smart Mobility
   />
 </div>
 
-<div className="flex gap-[10px] overflow-x-scroll mt-[50px] w-full">
+<div className="flex gap-[10px] overflow-x-scroll mt-[50px] mx-auto w-fit">
       <Image
     src={picture5}
     alt=""
