@@ -218,7 +218,7 @@ Smart Mobility
      <div className="bg-white py-[150px]">
       <p className="text-[50px] mb-[50px] text-[#2D7CD0] leading-[150%]  font-[family-name:var(--font-bricolage-grotesque)] font-bold text-center [text-shadow:3px_2px_0px_0px_#252B42]
 ">Testimonies</p>
-<div className="flex gap-4 md:gap-10 overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide mb-10 px-4 md:px-8 lg:px-16">
+<div className="flex gap-4 flex-col md:flex-row md:gap-10 overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide md:mb-10 px-4 md:px-8 lg:px-16">
   {[
     { name: 'James O.', role: 'Frequent Commuter', text: "KoroRyde has been a game-changer for my daily commute! The drivers are polite, the cars are clean, and the fares are super affordable. I love how easy it is to book a ride and track my driver in real time!" },
     { name: 'Chinwe A.', role: 'Business Professional', text: "As a businesswoman, I need a reliable and professional ride-hailing service, and KoroRyde delivers every time. The rides are always smooth, and the drivers are punctual. I highly recommend it for corporate travel." },
@@ -239,7 +239,7 @@ Smart Mobility
 
 
 {/*  */}
-<div className="flex gap-4 md:gap-10 overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide mb-10 px-4 md:px-8 lg:px-16">
+<div className="flex flex-col md:flex-row gap-4 md:gap-10 overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide mb-10 px-4 md:px-8 lg:px-16">
   {[
     { name: 'Grace M.', role: 'Student', text: "KoroRyde is a lifesaver for students like me! The fares are budget-friendly, and I always feel safe, especially with the in-app safety features. I don’t have to worry about getting around the city anymore." },
     { name: 'Babatunde K.', role: 'Driver Partner', text: "As a KoroRyde driver, I appreciate how fair the company is to its drivers. The earnings are good, the app is easy to use, and I get to meet amazing passengers every day. Best decision I made!" },
