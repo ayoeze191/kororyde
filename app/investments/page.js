@@ -109,25 +109,28 @@ a sustainable, efficient, and profitable transport network.
 
         <div className=" bg-[#2D7CD0] p-[10px] md:p-0 rounded-[10px]">
         <Image src={MakeMoney1} alt="" className="h-[200px] w-full rounded-[10px] object-cover"/>
-        <p className="mt-[20px] text-[#FEFEFE] text-[18px] md:text-[25px] font-bold font-[family-name:var(--font-bricolage-grotesque)] px-[20px]">How You Make Money</p>
+        <p className="mt-[20px] text-[#FEFEFE] text-[18px] md:text-[25px] font-bold font-[family-name:var(--font-bricolage-grotesque)] px-[20px]">Bonus Perks For Investors</p>
         <ol className="list-decimal  w-full px-[35px]  font-[var(--font-bricolage-grotesque)] mt-4 md:mt-8  text-[#656565] leading-[150%]">
-  <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">Invest in a CNG car or EV bike.</li>
-  <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">KoroRYDE assigns your vehicle to verified drivers or delivery riders.</li>
-  <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">Your vehicle earns money daily from rides and deliveries.</li>
-  <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">You receive weekly payouts for 2 years.</li>
-  <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">Zero management stress – we handle everything while you earn!</li>
+  <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">VIP Investor status – enjoy priority access to future investments.</li>
+  <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">Exclusive discounts & offers on additional investments.</li>
+  <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">Recognition as a transportation innovator & job creator in Nigeria.</li>
 </ol>
         </div>
 
-        <div className=" bg-[#2D7CD0] p-[10px] md:p-0 rounded-[10px]">
+
+
+        <div className=" bg-[#2D7CD0] p-[10px] md:p-0 rounded-[10px] pb-[20px]">
         <Image src={MakeMoney3} alt="" className="h-[200px] w-full rounded-[10px] object-cover"/>
-        <p className="mt-[20px] text-[#FEFEFE] text-[18px] md:text-[25px] font-bold font-[family-name:var(--font-bricolage-grotesque)] px-[20px]">How You Make Money</p>
+        <p className="mt-[20px] text-[#FEFEFE] text-[18px] md:text-[25px] font-bold font-[family-name:var(--font-bricolage-grotesque)] px-[20px] ">Why this is a Smart
+        Investment?</p>
         <ol className="list-decimal  w-full px-[35px]  font-[var(--font-bricolage-grotesque)] mt-4 md:mt-8  text-[#656565] leading-[150%]">
-  <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">Invest in a CNG car or EV bike.</li>
-  <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">KoroRYDE assigns your vehicle to verified drivers or delivery riders.</li>
-  <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">Your vehicle earns money daily from rides and deliveries.</li>
-  <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">You receive weekly payouts for 2 years.</li>
-  <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">Zero management stress – we handle everything while you earn!</li>
+  <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">Growing Market: The ride-hailing and delivery sector is expanding rapidly.
+  </li>
+  <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">Guaranteed Returns: Structured weekly earnings for 2 years.
+  </li>
+  <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">Eco-Friendly Advantage: Contribute to a sustainable transport system.</li>
+  <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">Hassle-Free Investment: No need to drive or manage operations – we do it for you.</li>
+  <li className="text-white text-[13px] md:text-[18px] leading-[150%] font-[var(--font-bricolage-grotesque)]">Massive Market Demand: Thousands of riders and businesses need KoroRYDE daily</li>
 </ol>
         </div>
       </div>
