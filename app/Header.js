@@ -22,7 +22,7 @@ export default function Navbar({ isHomePage }) {
         </div>
 
         {/* ✅ Desktop Navigation */}
-        <div className="hidden lg:flex gap-[20px] xl:gap-[30px] items-center text-[#FEFEFE]">
+        <div className="hidden lg:flex xl:gap-[20px] 2xl:gap-[30px] items-center text-[#FEFEFE] mr-2">
           <div className="flex gap-[12px] lg:gap-[18px] xl:gap-[24px] text-[14px] md:text-[16px] xl:text-[18px] font-semibold">
             <NavItem href="/" text="Home" />
             <NavItem href="/services" text="Services" />
@@ -55,7 +55,7 @@ const NavItem = ({ href, text }) => (
   <Link
     prefetch={false}
     href={href}
-    className="text-[13px] sm:text-[14px] md:text-[16px] xl:text-[18px] leading-[140%] font-semibold"
+    className="text-[13px]  sm:text-[14px] md:text-[14px] xl:text-[18px] leading-[140%] font-semibold"
   >
     {text}
   </Link>
