@@ -97,7 +97,7 @@ Smart Mobility
       <h2 className="text-[#030303] text-[25px] text-center md:text-[50px] font-bold leading-[150%] mx-auto w-fit font-[family-name:var(--font-bricolage-grotesque)] [text-shadow:3px_2px_0px_0px_#2D7CD0]
 ">Ready to Experience KoroRYDE</h2>
      <p className="mt-[20px] text-[#656565] text-[13px]  md:text-[18px] leading-[150%] font-normal mx-auto w-fit font-[family-name:var(--font-bricolage-grotesque)]">Check out our range of services</p>
-      <div className="mt-[50px] flex gap-[39px] overflow-x-scroll w-full">
+      <div className="mt-[50px] flex gap-[39px] overflow-x-scroll scrollbar-hide w-full">
         <div className="max-w-[initial] rounded-[10px] min-w-[250px] h-[292px] md:min-w-[600px] relative md:h-fit ">
           <div className="h-full w-full"><Image src={service1} alt="" className="h-full"/></div>
           <div className="bg-[#010101] p-[10px] md:p-[30px] flex flex-col gap-[10px] md:gap-[20px] absolute bottom-0 w-full rounded-[10px]" >
@@ -199,7 +199,7 @@ Smart Mobility
       <p className="text-[25px] mx-auto  md:max-w-[initial] md:text-[50px] leading-[150%]  font-[family-name:var(--font-bricolage-grotesque)] font-bold text-center [text-shadow:3px_2px_0px_0px_#2D7CD0]
 ">What pictures have to say about<br/>
       KoroRyde</p>
-      <div className="flex gap-[10px] overflow-x-scroll mt-[50px] w-full">
+      <div className="flex gap-[10px] overflow-x-scroll scrollbar-hide mt-[50px] w-full">
       <Image
     src={picture1}
     alt=""
@@ -222,7 +222,7 @@ Smart Mobility
   />
 </div>
 
-<div className="flex gap-[10px] overflow-x-scroll mt-[50px] mx-auto w-fit">
+<div className="flex gap-[10px] scrollbar-hide overflow-x-scroll mt-[50px] mx-auto w-fit">
       <Image
     src={picture5}
     alt=""
@@ -239,7 +239,7 @@ Smart Mobility
     className="w-[150px] h-[85px] sm:w-[180px] sm:h-[120px] md:w-[250px] md:h-[200px] lg:w-[300px] lg:h-[278px] xl:w-[492px] xl:h-[278px] object-cover rounded-lg flex-shrink-0"
   />
 </div>
-<div className="flex gap-[10px] overflow-x-scroll mt-[50px] w-full">
+<div className="flex gap-[10px] scrollbar-hide overflow-x-scroll mt-[50px] w-full">
       <Image
     src={picture8}
     alt=""
@@ -266,7 +266,7 @@ Smart Mobility
      <div className="bg-white py-[150px]">
       <p className="text-[50px] mb-[50px] text-[#2D7CD0] leading-[150%]  font-[family-name:var(--font-bricolage-grotesque)] font-bold text-center [text-shadow:3px_2px_0px_0px_#252B42]
 ">Testimonies</p>
-<div className="flex gap-4 mb-4  flex-col md:flex-row md:gap-10 overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide md:mb-10 px-4 md:px-8 lg:px-16">
+<div className="flex gap-4 mb-4  flex-col md:flex-row md:gap-10 scrollbar-hide overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide md:mb-10 px-4 md:px-8 lg:px-16">
   {[
     { name: 'James O.', role: 'Frequent Commuter', text: "KoroRyde has been a game-changer for my daily commute! The drivers are polite, the cars are clean, and the fares are super affordable. I love how easy it is to book a ride and track my driver in real time!" },
     { name: 'Chinwe A.', role: 'Business Professional', text: "As a businesswoman, I need a reliable and professional ride-hailing service, and KoroRyde delivers every time. The rides are always smooth, and the drivers are punctual. I highly recommend it for corporate travel." },
@@ -287,7 +287,7 @@ Smart Mobility
 
 
 {/*  */}
-<div className="flex flex-col md:flex-row gap-4 md:gap-10 overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide mb-10 px-4 md:px-8 lg:px-16">
+<div className="flex flex-col md:flex-row gap-4 md:gap-10 scrollbar-hide overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide mb-10 px-4 md:px-8 lg:px-16">
   {[
     { name: 'Grace M.', role: 'Student', text: "KoroRyde is a lifesaver for students like me! The fares are budget-friendly, and I always feel safe, especially with the in-app safety features. I don’t have to worry about getting around the city anymore." },
     { name: 'Babatunde K.', role: 'Driver Partner', text: "As a KoroRyde driver, I appreciate how fair the company is to its drivers. The earnings are good, the app is easy to use, and I get to meet amazing passengers every day. Best decision I made!" },

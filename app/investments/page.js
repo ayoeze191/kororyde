@@ -95,7 +95,7 @@ a sustainable, efficient, and profitable transport network.
 {/* Firm */}
         
 <div className="mx-auto max-w-[1402px] flex flex-col md:flex-row px-[20px]  gap-[60px] mt-[50px]">
-<div className=" bg-[#2D7CD0] p-[10px] md:p-0 rounded-[10px]">
+<div className=" bg-[#2D7CD0] p-[10px] md:p-0 rounded-[10px] w-full">
         <Image src={MakeMoney} alt="" className="h-[200px] w-full rounded-[10px]  object-cover"/>
         <p className="mt-[20px] text-[#FEFEFE] text-[18px] md:text-[25px] font-bold font-[family-name:var(--font-bricolage-grotesque)] px-[20px]">How You Make Money</p>
         <ol className="list-decimal  w-full px-[35px]  font-[var(--font-bricolage-grotesque)] mt-4 md:mt-8  text-[#656565] leading-[150%]">
@@ -107,7 +107,7 @@ a sustainable, efficient, and profitable transport network.
 </ol>
         </div>
 
-        <div className=" bg-[#2D7CD0] p-[10px] md:p-0 rounded-[10px]">
+        <div className=" bg-[#2D7CD0] p-[10px] md:p-0 rounded-[10px] w-full">
         <Image src={MakeMoney1} alt="" className="h-[200px] w-full rounded-[10px] object-cover"/>
         <p className="mt-[20px] text-[#FEFEFE] text-[18px] md:text-[25px] font-bold font-[family-name:var(--font-bricolage-grotesque)] px-[20px]">Bonus Perks For Investors</p>
         <ol className="list-decimal  w-full px-[35px]  font-[var(--font-bricolage-grotesque)] mt-4 md:mt-8  text-[#656565] leading-[150%]">
@@ -119,7 +119,7 @@ a sustainable, efficient, and profitable transport network.
 
 
 
-        <div className=" bg-[#2D7CD0] p-[10px] md:p-0 rounded-[10px] pb-[20px]">
+        <div className=" bg-[#2D7CD0] p-[10px] md:p-0 rounded-[10px] pb-[20px] w-full">
         <Image src={MakeMoney3} alt="" className="h-[200px] w-full rounded-[10px] object-cover"/>
         <p className="mt-[20px] text-[#FEFEFE] text-[18px] md:text-[25px] font-bold font-[family-name:var(--font-bricolage-grotesque)] px-[20px] ">Why this is a Smart
         Investment?</p>
