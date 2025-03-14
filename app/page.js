@@ -152,9 +152,12 @@ Smart Mobility
         </div> */}
           <p className="z-2 text-[#FEFEFE] font-bold font-[family-name:var(--font-bricolage-grotesque)] text-[18px] md:text-[40px] top-[8px] md:top-[27px] left-[17px] absolute">Safety & ease</p>
         </div>
+        <div className="flex justify-between items-center">
         <div className="text-[#010101] mt-[20px] font-bold font-[family-name:var(--font-bricolage-grotesque)] text-[13px] md:text-[25px] leading-[150%]">
         <p>Safe and affordable</p>
         <p>Transportation</p>
+        </div>
+        <button className="bg-[#2D7CD0] px-[10px] py-[5px] text-white  rounded-[100px]">Read More</button>
         </div>
        
        </div>
