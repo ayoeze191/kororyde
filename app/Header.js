@@ -18,12 +18,12 @@ export default function Navbar({ isHomePage }) {
       >
         {/* ✅ Logo */}
         <div className="w-auto">
-          <Image src={logo} width={80} height={40} alt="Logo" className="w-[initial] h-[initial]" />
+          <Image src={logo} width={75} height={40} alt="Logo" className="md:w-[initial] md:h-[initial]" />
         </div>
 
         {/* ✅ Desktop Navigation */}
         <div className="hidden lg:flex xl:gap-[20px] 2xl:gap-[30px] items-center text-[#FEFEFE] mr-2">
-          <div className="flex gap-[12px] lg:gap-[18px] xl:gap-[24px] text-[14px] md:text-[16px] xl:text-[18px] font-semibold">
+          <div className="flex gap-[12px] lg:gap-[18px] gap-[24px] text-[14px] lg:text-[16px] xl:text-[18px] font-semibold">
             <NavItem href="/" text="Home" />
             <NavItem href="/services" text="Services" />
             <NavItem href="/investments" text="Investment Opportunities" />
@@ -34,7 +34,7 @@ export default function Navbar({ isHomePage }) {
             <button
               className={`${
                 isHomePage ? 'bg-[#2D7CD0]' : 'bg-transparent'
-              } text-[14px] md:text-[16px] xl:text-[18px] font-bold py-[8px] md:py-[10px] px-[12px]  xl:px-[32px] rounded-[8px] border border-white`}
+              } text-[14px] md:text-[16px] xl:text-[18px] font-bold py-[8px] md:py-[10px] px-[12px]   xl:px-[32px] rounded-[8px] border border-white`}
             >
               Download App
             </button>
