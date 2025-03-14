@@ -36,7 +36,7 @@ export default function Home() {
      <Header isHomePage={true}/>
      </div>
      <SideBar />
-      <div className="md:bg-black px-[37px] md:p-[50px] rounded-[10px] mt-[30px]  lg:mt-[59px] w-full max-w-[655px] mx-auto lg:ml-0">
+      <div className="bg-black px-[37px] md:p-[50px] rounded-[10px] mt-[30px]  lg:mt-[59px] w-full max-w-[655px] mx-auto lg:ml-0">
      <div className="bg-white mx-auto lg:mx-0 flex items-center gap-[10px] lg:gap-[20px] px-[20px] py-[5px]  text-[#010101] w-fit rounded-[10px] text-[15px] lg:text-[18px] font-[family-name:var(--font-bricolage-grotesque)]">
       <p>
         <Image src={sparkles} alt="" />
@@ -51,7 +51,7 @@ Smart Mobility
       KoroRYDE is a next-generation ride-hailing and delivery platform
      </p>
      <div className="flex gap-[20px] items-center mt-[30px] lg:mt-[50px] justify-center lg:justify-start">
-      <div className="flex bg-[#252B42] py-[8.6px] px-[13.21px] lg:py-[20px] lg:px-[33.5px] items-center gap-[11.49px] lg:gap-[25px]  border-white border rounded-[10px]">
+      <div className="flex md:bg-[#252B42] py-[8.6px] px-[13.21px] lg:py-[20px] lg:px-[33.5px] items-center gap-[11.49px] lg:gap-[25px]  border-white border rounded-[10px]">
         <Image src={google} alt="" className="w-[15.94px] h-[18.33px] lg:w-[initial] lg:h-[initial]"/>
         <div>
           <p className="font-[family-name:var(--font-montserrat)] font-bold lg:leading-[24px] text-[6.76px] leading-[11.59px] lg:text-[14px] text-white">Download on the</p>
