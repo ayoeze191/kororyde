@@ -17,9 +17,9 @@ export default function Navbar({ isHomePage, href }) {
           isHomePage ? 'backdrop-blur-[20px] border-[#FEFEFE]' : 'bg-[#2D7CD0] z-[9999999999999999] border-[#2D7CD0]'
         } flex justify-between items-center border-[1.5px] rounded-[50px]  mx-auto px-1 sm:px-2  md:px-6 lg:px-8 `}
       >
-       <div className="w-[130px] h-[30px] sm:w-[170px] -ml-2.5 sm:h-[44px] flex items-center xl:w-[250px] xl:h-[55px]">
+       <Link href={'/'} className="w-[130px] h-[30px] sm:w-[170px] -ml-2.5 sm:h-[44px] flex items-center xl:w-[250px] xl:h-[55px]">
 <Image src={logo} alt="Logo" className="w-full h-full" />
- </div>
+ </Link>
         <div className='hidden md:flex  items-center xl:gap-[30px] 2xl:gap-[50px]'>
       <div className='md:flex text-white gap-1 md:gap-2 lg:gap-3 xl:gap-3  mr-2'>
         <NavItem text={'Home'} href={'/'}/>
@@ -30,7 +30,7 @@ export default function Navbar({ isHomePage, href }) {
       </div>
       <button className='py-2 px-2 text-[12px] xl:text-[12.5px] xl:py-[16px] xl:px-[30px]  bg-[#FEFEFE] rounded-[8px] font-bold text-[#2D7CD0] font-[family-name:var(--font-bricolage-grotesque)]'>Download App</button>
       </div>
-      <div className='block md:hidden '>
+      <div className='block md:hidden ' onClick={toggleSidebar}>
       <Image src={hamburger}  alt=''/>
       </div>
       </div>
