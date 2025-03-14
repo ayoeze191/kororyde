@@ -30,7 +30,7 @@ export default function Navbar({ isHomePage }) {
             <NavItem href="/about-us" text="About Us" />
             <NavItem href="/contact-us" text="Contact" />
           </div>
-          <div>
+          <div className='md:ml-1'>
             <button
               className={`${
                 isHomePage ? 'bg-[#2D7CD0]' : 'bg-transparent'
