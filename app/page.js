@@ -15,6 +15,15 @@ import investment from "./../public/assets/investment.png"
 import picture6 from "./../public/assets/picture6.png"
 import picture7 from "./../public/assets/picture7.png"
 import picture5 from "./../public/assets/picture5.png"
+import picture1 from "./../public/assets/picture1.png"
+import picture2 from "./../public/assets/picture2.png"
+import picture3 from "./../public/assets/picture3.png"
+import picture4 from "./../public/assets/picture4.png"
+import picture8 from "./../public/assets/picture8.png"
+import picture9 from "./../public/assets/picture9.png"
+import picture10 from "./../public/assets/picture10.png"
+import picture11 from "./../public/assets/picture11.png"
+
 
 // import service3 from "./../public/assets"
 import Header from "./Header";
@@ -191,12 +200,30 @@ Smart Mobility
 ">What pictures have to say about<br/>
       KoroRyde</p>
       <div className="flex gap-[10px] overflow-x-scroll mt-[50px] w-full">
-  <ImageSlider />
+      <Image
+    src={picture1}
+    alt=""
+    className="w-[150px] h-[85px] sm:w-[180px] sm:h-[120px] md:w-[250px] md:h-[200px] lg:w-[300px] lg:h-[278px] xl:w-[492px] xl:h-[278px] object-cover rounded-lg flex-shrink-0"
+  />
+  <Image
+    src={picture2}
+    alt=""
+    className="w-[150px] h-[85px] sm:w-[180px] sm:h-[120px] md:w-[250px] md:h-[200px] lg:w-[300px] lg:h-[278px] xl:w-[492px] xl:h-[278px] object-cover rounded-lg flex-shrink-0"
+  />
+  <Image
+    src={picture3}
+    alt=""
+    className="w-[150px] h-[85px] sm:w-[180px] sm:h-[120px] md:w-[250px] md:h-[200px] lg:w-[300px] lg:h-[278px] xl:w-[492px] xl:h-[278px] object-cover rounded-lg flex-shrink-0"
+  />
+   <Image
+    src={picture4}
+    alt=""
+    className="w-[150px] h-[85px] sm:w-[180px] sm:h-[120px] md:w-[250px] md:h-[200px] lg:w-[300px] lg:h-[278px] xl:w-[492px] xl:h-[278px] object-cover rounded-lg flex-shrink-0"
+  />
 </div>
 
-      <div className="mt-10 flex flex-wrap gap-4 justify-center w-full px-4 md:px-8 lg:px-16">
-      <div className="flex gap-[10px] overflow-x-auto whitespace-nowrap p-2">
-  <Image
+<div className="flex gap-[10px] overflow-x-scroll mt-[50px] w-full">
+      <Image
     src={picture5}
     alt=""
     className="w-[150px] h-[85px] sm:w-[180px] sm:h-[120px] md:w-[250px] md:h-[200px] lg:w-[300px] lg:h-[278px] xl:w-[492px] xl:h-[278px] object-cover rounded-lg flex-shrink-0"
@@ -212,11 +239,28 @@ Smart Mobility
     className="w-[150px] h-[85px] sm:w-[180px] sm:h-[120px] md:w-[250px] md:h-[200px] lg:w-[300px] lg:h-[278px] xl:w-[492px] xl:h-[278px] object-cover rounded-lg flex-shrink-0"
   />
 </div>
-
+<div className="flex gap-[10px] overflow-x-scroll mt-[50px] w-full">
+      <Image
+    src={picture8}
+    alt=""
+    className="w-[150px] h-[85px] sm:w-[180px] sm:h-[120px] md:w-[250px] md:h-[200px] lg:w-[300px] lg:h-[278px] xl:w-[492px] xl:h-[278px] object-cover rounded-lg flex-shrink-0"
+  />
+  <Image
+    src={picture9}
+    alt=""
+    className="w-[150px] h-[85px] sm:w-[180px] sm:h-[120px] md:w-[250px] md:h-[200px] lg:w-[300px] lg:h-[278px] xl:w-[492px] xl:h-[278px] object-cover rounded-lg flex-shrink-0"
+  />
+  <Image
+    src={picture10}
+    alt=""
+    className="w-[150px] h-[85px] sm:w-[180px] sm:h-[120px] md:w-[250px] md:h-[200px] lg:w-[300px] lg:h-[278px] xl:w-[492px] xl:h-[278px] object-cover rounded-lg flex-shrink-0"
+  />
+    <Image
+    src={picture11}
+    alt=""
+    className="w-[150px] h-[85px] sm:w-[180px] sm:h-[120px] md:w-[250px] md:h-[200px] lg:w-[300px] lg:h-[278px] xl:w-[492px] xl:h-[278px] object-cover rounded-lg flex-shrink-0"
+  />
 </div>
-      <div className="flex gap-[40px] mt-[40px] w-full overflow-x-scroll mx-auto ">
-      <ImageSliderThree />
-      </div>
      </div>
 
      <div className="bg-white py-[150px]">
