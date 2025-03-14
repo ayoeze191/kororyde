@@ -32,7 +32,7 @@ const SideBar = ({show}) => {
          <p onClick={() => changeurl('/services')} className="cursor-pointer">Service</p>
          <p onClick={() => changeurl('/investments')} className="cursor-pointer">Investment</p>
          <p onClick={() => changeurl('/about-us')} className="cursor-pointer">About Us</p>
-         <p>Contact</p>
+         <p onClick={() => changeurl('/contact-us')} className="cursor-pointer">Contact</p>
     </div>
     <button className="bg-[#FEFEFE] font-bold  text-[#2D7CD0] px-[30px] py-[20px] mt-[50px] w-fit mx-auto rounded-[10px]">
 Download App

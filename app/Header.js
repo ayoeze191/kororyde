@@ -12,8 +12,8 @@ export default function Navbar({ isHomePage }) {
     <>
       {/* ✅ Top Navigation Bar */}
       <div
-        className={`py-[8px] md:py-[14px] ${
-          isHomePage ? 'backdrop-blur-[20px] border-[#FEFEFE]' : 'bg-[#2D7CD0] border-[#2D7CD0]'
+        className={`py-[8px] md:py-[14px]  ${
+          isHomePage ? 'backdrop-blur-[20px] border-[#FEFEFE]' : 'bg-[#2D7CD0] z-[9999999999999999] border-[#2D7CD0]'
         } flex justify-between items-center border-[1.5px] rounded-[50px] px-[10px] sm:px-[16px] md:px-[24px] lg:px-[32px] xl:px-[64px] mx-auto`}
       >
         {/* ✅ Logo */}

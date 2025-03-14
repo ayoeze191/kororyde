@@ -12,9 +12,10 @@ import linkedln from "./../../public/assets/linkedin.webp"
 import twitter from "./../../public/assets/twitter.webp"
 import FooterBg from "../FooterBg"
 import Footer from "../Footer"
+import OverallLayout from "../OverallLayout"
 
 const Page = () => {
-    return <div className="">
+    return <OverallLayout><div className="">
     <div className="md:min-h-screen bg-no-repeat bg-cover  md:pt-[64px]  pt-[60px]  " style={{
     }}>
         <div className="px-[20px] md:px-[112px]">
@@ -132,6 +133,7 @@ Invest in the future.
     <Footer />
     </div>
     </div>
+    </OverallLayout>
 }
 
 export default Page
