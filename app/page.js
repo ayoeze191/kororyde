@@ -94,28 +94,31 @@ Smart Mobility
             <div><Image src={arrowup} alt=""/></div>
             </div>
             
-            <p className="text-[#FEFEFE] font-[family-name:var(--font-bricolage-grotesque)] md:text-[18px] leading-[150%] font-normal text-[13px] ">Get to your destination safely and affordably</p>
+            <p className="text-[#FEFEFE] font-[family-name:var(--font-bricolage-grotesque)] md:text-[18px] leading-[150%] font-normal text-[13px] ">Get to your destination safely and affordably with
+            our CNG-powered cars.</p>
           </div>
         </div>
         <div className="max-w-[initial] rounded-[10px] min-w-[250px] h-[292px] md:min-w-[600px] relative md:h-fit ">
           <div className="h-full w-full"><Image src={service2} alt="" className="h-full"/></div>
           <div className="bg-[#010101] p-[10px] md:p-[30px] flex flex-col gap-[20px] absolute bottom-0 w-full rounded-[10px]" >
-            <div className=" text-[#FEFEFE] font-[family-name:var(--font-bricolage-grotesque)] text-[18px] md:text-[25px] flex gap-[10px] font-bold"><p>Ride hailing</p>
+            <div className=" text-[#FEFEFE] font-[family-name:var(--font-bricolage-grotesque)] text-[18px] md:text-[25px] flex gap-[10px] font-bold"><p>Delivery</p>
             <div><Image src={arrowup} alt=""/></div>
             </div>
             
-            <p className="text-[#FEFEFE] font-[family-name:var(--font-bricolage-grotesque)] md:text-[18px] leading-[150%] font-normal text-[13px] ">Get to your destination safely and affordably</p>
+            <p className="text-[#FEFEFE] font-[family-name:var(--font-bricolage-grotesque)] md:text-[18px] leading-[150%] font-normal text-[13px] ">KoroRYDE Delivery ensures efficient, cost effective
+            logistics using our fleet of EV bikes and CNG cars</p>
           </div>
         </div>
 
         <div className="max-w-[initial] rounded-[10px] min-w-[250px] h-[292px] md:min-w-[600px] relative md:h-fit ">
           <div className="h-full w-full"><Image src={service3} alt="" className="h-full"/></div>
           <div className="bg-[#010101] p-[10px] md:p-[30px] flex flex-col gap-[20px] absolute bottom-0 w-full rounded-[10px]" >
-            <div className=" text-[#FEFEFE] font-[family-name:var(--font-bricolage-grotesque)] text-[18px] md:text-[25px] flex gap-[10px] font-bold"><p>Ride hailing</p>
+            <div className=" text-[#FEFEFE] font-[family-name:var(--font-bricolage-grotesque)] text-[18px] md:text-[25px] flex gap-[10px] font-bold"><p>Private/Solo Ride </p>
             <div><Image src={arrowup} alt=""/></div>
             </div>
             
-            <p className="text-[#FEFEFE] font-[family-name:var(--font-bricolage-grotesque)] md:text-[18px] leading-[150%] font-normal text-[13px] ">Get to your destination safely and affordably</p>
+            <p className="text-[#FEFEFE] font-[family-name:var(--font-bricolage-grotesque)] md:text-[18px] leading-[150%] font-normal text-[13px] ">Enjoy the ultimate convenience and comfort with
+            KoroRyde’s Private/Solo Ride option.</p>
           </div>
         </div>
       </div>
