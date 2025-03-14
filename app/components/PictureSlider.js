@@ -17,24 +17,33 @@ import picture9 from "./../../public/assets/picture9.png"
 import picture10 from "./../../public/assets/picture10.png"
 import picture11 from "./../../public/assets/picture11.png"  
 import picture5 from "./../../public/assets/picture5.png"
-
+const pictures = [picture1, picture2, picture3, picture4]
 const ImageSlider = () => {
     return  <Swiper
-                modules={[ Autoplay]}
-                spaceBetween={50}
-                slidesPerView={3.7}
-                navigation={false}
-                pagination={false}
-                autoplay={{ delay: 3000 }}
-                loop
-            >
-            <SwiperSlide><Image src={picture1} alt="" className="min-w-[150px] md:min-w-[initial] h-[85px] md:h-[278px] md:min-h-[initial] object-cover"/></SwiperSlide>
-            <SwiperSlide><Image src={picture2} alt="" className="min-w-[150px] md:min-w-[initial] h-[85px] md:h-[278px] md:min-h-[initial] object-cover"/></SwiperSlide>
-            <SwiperSlide><Image src={picture3} alt="" className="min-w-[150px] md:min-w-[initial] h-[85px] md:h-[278px] md:min-h-[initial] object-cover"/></SwiperSlide>
-            <SwiperSlide> <Image src={picture4} alt="" className="min-w-[150px] md:min-w-[initial] h-[85px] md:h-[278px] md:min-h-[initial] object-cover"/>  </SwiperSlide>
-            </Swiper>
+    modules={[Autoplay]}
+    spaceBetween={20}
+    breakpoints={{
+      320: { slidesPerView: 1.5, spaceBetween: 10 }, // Small screens
+      480: { slidesPerView: 2, spaceBetween: 15 },
+      768: { slidesPerView: 3, spaceBetween: 20 }, // Tablets
+      1024: { slidesPerView: 3.7, spaceBetween: 30 }, // Large screens
+    }}
+    autoplay={{ delay: 3000 }}
+    loop={true}
+  >
+    {pictures.map((picture, index) => (
+      <SwiperSlide key={index}>
+        <Image
+          src={picture}
+          alt=""
+          width={300}
+          height={278}
+          className="w-full h-auto md:h-[278px] object-cover rounded-lg"
+        />
+      </SwiperSlide>
+    ))}
+  </Swiper>
 }
-
 // export const ImageSliderTwo = () => {
 //     return  <Swiper
 //                 // modules={[ Autoplay]}
@@ -49,20 +58,33 @@ const ImageSlider = () => {
 // }
 
 export const ImageSliderThree = () => {
-    return  <Swiper
-                modules={[ Autoplay]}
-                spaceBetween={50}
-                slidesPerView={3.7}
-                loop
-                navigation={false}
-                pagination={false}
-                autoplay={{ delay: 5000 }}
-            >
-            <SwiperSlide><Image src={picture8} alt="" className="min-w-[150px] md:min-w-[initial] h-[85px] md:h-[278px] md:min-h-[initial] object-cover"/></SwiperSlide>
-            <SwiperSlide><Image src={picture9} alt="" className="min-w-[150px] md:min-w-[initial] h-[85px] md:h-[278px] md:min-h-[initial] object-cover"/></SwiperSlide>
-            <SwiperSlide><Image src={picture10} alt="" className="min-w-[150px] md:min-w-[initial] h-[85px] md:h-[278px] md:min-h-[initial] object-cover"/></SwiperSlide>
-            <SwiperSlide> <Image src={picture11} alt="" className="min-w-[150px] md:min-w-[initial] h-[85px] md:h-[278px] md:min-h-[initial] object-cover"/>  </SwiperSlide>
-            </Swiper>
-}
-
-export default ImageSlider
+    const images = [picture8, picture9, picture10, picture11];
+  
+    return (
+      <Swiper
+        modules={[Autoplay]}
+        loop={true}
+        autoplay={{ delay: 5000 }}
+        breakpoints={{
+          320: { slidesPerView: 1.5, spaceBetween: 10 }, // Small phones
+          480: { slidesPerView: 2, spaceBetween: 15 },
+          768: { slidesPerView: 3, spaceBetween: 20 }, // Tablets
+          1024: { slidesPerView: 3.7, spaceBetween: 30 }, // Large screens
+        }}
+      >
+        {images.map((image, index) => (
+          <SwiperSlide key={index}>
+            <Image
+              src={image}
+              alt=""
+              width={300}
+              height={278}
+              className="w-full h-auto md:h-[278px] object-cover rounded-lg"
+            />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    );
+  };
+  
+  export default ImageSliderThree;

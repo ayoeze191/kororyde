@@ -193,11 +193,23 @@ Smart Mobility
       <div className="flex gap-[40px] overflow-x-scroll mt-[50px] w-full">
        <ImageSlider />
       </div>
-      <div className="mt-[40px] flex gap-[40px] mx-auto w-full justify-center">
-      <Image src={picture5} alt="" className="min-w-[150px] md:min-w-[initial] h-[85px] md:h-[278px] md:min-h-[initial] object-cover"/>
-            <Image src={picture6} alt="" className="min-w-[150px] md:min-w-[initial] h-[85px] md:h-[278px] md:min-h-[initial] object-cover"/>
-            <Image src={picture7} alt="" className="min-w-[150px] md:min-w-[initial] h-[85px] md:h-[278px] md:min-h-[initial] object-cover"/>
-      </div>
+      <div className="mt-10 flex flex-wrap gap-4 justify-center w-full px-4 md:px-8 lg:px-16">
+  <Image
+    src={picture5}
+    alt=""
+    className="w-[150px] sm:w-[180px] md:w-[250px] lg:w-[300px] h-[85px] sm:h-[120px] md:h-[200px] lg:h-[278px] object-cover rounded-lg"
+  />
+  <Image
+    src={picture6}
+    alt=""
+    className="w-[150px] sm:w-[180px] md:w-[250px] lg:w-[300px] h-[85px] sm:h-[120px] md:h-[200px] lg:h-[278px] object-cover rounded-lg"
+  />
+  <Image
+    src={picture7}
+    alt=""
+    className="w-[150px] sm:w-[180px] md:w-[250px] lg:w-[300px] h-[85px] sm:h-[120px] md:h-[200px] lg:h-[278px] object-cover rounded-lg"
+  />
+</div>
       <div className="flex gap-[40px] mt-[40px] w-full overflow-x-scroll mx-auto ">
       <ImageSliderThree />
       </div>
