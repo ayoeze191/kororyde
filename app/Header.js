@@ -24,7 +24,7 @@ export default function Navbar({ isHomePage, href }) {
       <div className='md:flex text-white gap-1 md:gap-2 lg:gap-3 xl:gap-3  mr-2'>
         <NavItem text={'Home'} href={'/'}/>
         <NavItem text={'Service'} href={'/services'}/>
-        <NavItem text={'Investment Oppurtuinites'} href={'/investment'}/>
+        <NavItem text={'Investment Oppurtuinites'} href={'/investments'}/>
         <NavItem text={'About us'} href={'/about-us'}/>
         <NavItem text={'Contact'} href={'/contact-us'}/>
       </div>
@@ -43,7 +43,7 @@ const NavItem = ({ href, text }) => (
   <Link
     prefetch={false}
     href={href}
-    className="text-[13px]  sm:text-[14px] md:text-[14px] xl:text-[18px] leading-[140%] font-semibold"
+    className="text-[13px]  sm:text-[14px] md:text-[14px] xl:text-[18px] leading-[140%] font-bold"
   >
     {text}
   </Link>

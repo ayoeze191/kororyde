@@ -17,7 +17,7 @@ const ContactUs = () => {
         <OverallLayout><div className="">
     <div className="md:min-h-screen bg-no-repeat bg-cover  md:pt-[64px]  pt-[60px]  " style={{
     }}>
-        <div className="px-[20px] md:px-[112px]">
+        <div className="px-[20px] ">
     <Header isHomePage={false}/>
     </div>
     <div className="mt-[100px] bg-[url('/assets/ServiceHeroBg.webp')] bg-cover py-[113px]">
