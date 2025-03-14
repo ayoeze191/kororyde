@@ -61,7 +61,7 @@ export const ImageSliderThree = () => {
     const images = [picture8, picture9, picture10, picture11];
   
     return (
-      <Swiper
+        <Swiper
         modules={[Autoplay]}
         loop={true}
         autoplay={{ delay: 5000 }}
@@ -73,17 +73,16 @@ export const ImageSliderThree = () => {
         }}
       >
         {images.map((image, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={index} className="flex justify-center">
             <Image
               src={image}
               alt=""
-              width={300}
-              height={278}
-              className="w-full h-auto md:h-[278px] object-cover rounded-lg"
+              className="w-[150px] h-[85px] sm:w-[180px] sm:h-[120px] md:w-[250px] md:h-[200px] lg:w-[300px] lg:h-[278px] xl:w-[492px] xl:h-[278px] object-cover rounded-lg"
             />
           </SwiperSlide>
         ))}
       </Swiper>
+      
     );
   };
   
