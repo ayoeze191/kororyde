@@ -34,7 +34,7 @@ export default function Navbar({ isHomePage }) {
             <button
               className={`${
                 isHomePage ? 'bg-[#2D7CD0]' : 'bg-transparent'
-              } text-[14px] md:text-[16px] xl:text-[18px] font-bold py-[8px] md:py-[10px] px-[16px] md:px-[24px] xl:px-[32px] rounded-[8px] border border-white`}
+              } text-[14px] md:text-[16px] xl:text-[18px] font-bold py-[8px] md:py-[10px] px-[12px]  xl:px-[32px] rounded-[8px] border border-white`}
             >
               Download App
             </button>
