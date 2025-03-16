@@ -16,9 +16,9 @@ import OverallLayout from "../OverallLayout"
 
 const Page = () => {
     return <OverallLayout><div className="">
-    <div className="md:min-h-screen bg-no-repeat bg-cover  md:pt-[64px]  pt-[60px]  " style={{
+    <div className="lg:min-h-screen bg-no-repeat bg-cover  md:pt-[64px]  pt-[60px] " style={{
     }}>
-        <div className="px-[20px] ">
+        <div className="px-[20px] lg:px-[112px]  ">
     <Header isHomePage={false}/>
     </div>
     <div className="mt-[100px] bg-[url('/assets/ServiceHeroBg.webp')] bg-cover py-[113px]">

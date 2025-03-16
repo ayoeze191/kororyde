@@ -1,2 +1,5 @@
 @import "tailwindcss";
 
+.footerBg {
+    background: linear-gradient(135deg, #3C8CE7 0%, #00EAFF 100%);
+}

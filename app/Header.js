@@ -21,14 +21,14 @@ export default function Navbar({ isHomePage }) {
 <Image src={logo} alt="Logo" className="w-full h-full" />
  </Link>
         <div className='hidden md:flex  items-center xl:gap-[30px] 2xl:gap-[50px]'>
-      <div className='md:flex text-white gap-1 md:gap-2 lg:gap-3 xl:gap-3  mr-2'>
+      <div className='md:flex text-white gap-1 md:gap-2 lg:gap-3 xl:gap-3 2xl:gap-[30px]  mr-2'>
         <NavItem text={'Home'} href={'/'} active={pathname=='/'}/>
         <NavItem text={'Service'} href={'/services'} active={pathname=='/services'}/>
         <NavItem text={'Investment Oppurtuinites'} href={'/investments'} active={pathname=='/investments'}/>
         <NavItem text={'About us'} href={'/about-us'} active={pathname=='/about-us'}/>
         <NavItem text={'Contact'} href={'/contact-us'} active={pathname=='contact-us'}/>
       </div>
-      <button className='py-2 px-2 text-[12px] xl:text-[12.5px] xl:py-[16px] xl:px-[30px]  bg-[#FEFEFE] rounded-[8px] font-bold text-[#2D7CD0] font-[family-name:var(--font-bricolage-grotesque)]'>Download App</button>
+      <button className={`py-2 px-2 text-[12px] xl:text-[12.5px] 2xl:text-[18px] xl:py-[16px] xl:px-[30px]  ${isHomePage ? 'bg-[#2D7CD0] text-white':'bg-[#FEFEFE] text-[#2D7CD0]'}   rounded-[8px] font-bold text-[#2D7CD0] font-[family-name:var(--font-bricolage-grotesque)]`}>Download App</button>
       </div>
       <div className='block md:hidden ' onClick={toggleSidebar}>
       <Image src={hamburger}  alt=''/>

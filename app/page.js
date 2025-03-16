@@ -23,7 +23,18 @@ import picture8 from "./../public/assets/picture8.webp"
 import picture9 from "./../public/assets/picture9.webp"
 import picture10 from "./../public/assets/picture10.webp"
 import picture11 from "./../public/assets/picture11.webp"
-
+const commitments = [
+  {image: safeandaffordavle, benefits: "Safe and affordable transportation", text: ["At KoroRyde, we are committed to providing a safe, reliable, and budget-friendly transportation experience for every passenger. Whether you're commuting to work, heading out for an event, or managing business logistics, we ensure that affordability never comes at the expense of safety","Our drivers undergo rigorous screening and training, while our vehicles are regularly inspected to meet high safety standards. With transparent pricing, real-time tracking, and 24/7 customer support, you can ride with confidence, knowing you're in good hands", "Choose KoroRyde—where your safety and affordability go hand in hand"]},
+  {
+    image: green, benefits: "CNG-powered cars and EV bikes.", text: ""
+  },
+  {
+    image: delivery, benefits: "Offering a seamless, fast delivery service."
+  },
+  {
+    image: investment, benefits: "Investment opportunities for individuals and businesses."
+  }
+]
 
 // import service3 from "./../public/assets"
 import Header from "./Header";
@@ -32,6 +43,7 @@ import FooterBg from "./FooterBg";
 import ImageSlider, { ImageSliderThree, ImageSliderTwo } from "./components/PictureSlider";
 import SideBar from "./Sidebars";
 import OverallLayout from "./OverallLayout";
+import Commitments from "./components/Commitments";
 
 export default function Home() {
   
@@ -143,62 +155,10 @@ Smart Mobility
      <div className=" px-[26px] md:px-[140px] mx-auto bg-white py-[40px] md:py-[130px]" style={{
        backgroundImage: "url('/assets/Frame.webp')"}}>
       <div className="md:grid flex flex-col md:grid-cols-2 gap-[34px] md:gap-[60px]  mx-auto ">
-       <div className="">
-        <div className="relative rounded-[10px]">
-          <div className="overlay absolute w-full h-full top-0 bg-black opacity-[0.3] z-1"></div>
-          <div className="h-full rounded-[10px]"><Image src={safeandaffordavle} alt="" className="w-full h-full"/></div>
-          {/* <div className="absolute rounded-[10px] h-full bg-[#2D7CD0] top-0 w-full ">
-          
-        </div> */}
-          <p className="z-2 text-[#FEFEFE] font-bold font-[family-name:var(--font-bricolage-grotesque)] text-[18px] md:text-[40px] top-[8px] md:top-[27px] left-[17px] absolute">Safety & ease</p>
-        </div>
-        <div className="flex justify-between items-center">
-        <div className="text-[#010101] mt-[20px] font-bold font-[family-name:var(--font-bricolage-grotesque)] text-[13px] md:text-[25px] leading-[150%]">
-        <p>Safe and affordable</p>
-        <p>Transportation</p>
-        </div>
-        <button className="bg-[#2D7CD0] px-[10px] py-[5px] text-white  rounded-[100px]">Read More</button>
-        </div>
-       
-       </div>
 
-       <div className="">
-        <div className="relative">
-        <div className="overlay absolute w-full h-full top-0 bg-black opacity-[0.3] z-1"></div>
-
-          <Image src={green} alt="" className="w-full"/>
-          <p className="z-2 text-[#FEFEFE] font-bold font-[family-name:var(--font-bricolage-grotesque)] text-[18px] md:text-[40px] top-[27px] left-[17px] absolute">Safety & ease</p>
-        </div>
-        <div className="text-[13px] md:text-[25px] text-[#010101] mt-[20px] font-bold font-[family-name:var(--font-bricolage-grotesque)] leading-[150%]">
-        <p>CNG-powered cars and</p>
-        <p>EV bikes</p>
-        </div>
-       </div>
-
-       <div>
-        <div className="relative">
-        <div className="overlay absolute w-full h-full top-0 bg-black opacity-[0.3] z-1"></div>
-
-          <Image src={delivery} alt="" className="w-full"/>
-          <p className="z-2 text-[#FEFEFE] font-bold font-[family-name:var(--font-bricolage-grotesque)] text-[18px] md:text-[40px] top-[27px] left-[17px] absolute">Fast delivery</p>
-        </div>
-        <div className="text-[13px] md:text-[25px] text-[#010101] mt-[20px] font-bold font-[family-name:var(--font-bricolage-grotesque)]  leading-[150%]">
-        <p>Offering a seamless, fast</p>
-        <p>delivery service</p>
-        </div>
-       </div>
-
-       <div>
-        <div className="relative">
-        <div className="overlay absolute w-full h-full top-0 bg-black opacity-[0.3] z-1"></div>
-          <Image src={investment} alt="" className="w-full"/>
-          <p className="z-2 text-[#FEFEFE] font-bold font-[family-name:var(--font-bricolage-grotesque)] text-[18px] md:text-[40px] top-[27px] left-[17px] absolute">Investment</p>
-        </div>
-        <div className="text-[#010101] mt-[20px] font-bold font-[family-name:var(--font-bricolage-grotesque)] text-[13px] md:text-[25px] leading-[150%]">
-        <p>Investment opportunities for</p>
-        <p>individuals and businesses.</p>
-        </div>
-       </div>
+        {commitments.map((comm, key) => {
+          return <Commitments key={key} {...comm}/>
+        })}
        </div>
      </div>
 
