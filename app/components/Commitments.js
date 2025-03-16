@@ -1,7 +1,8 @@
 'use client'
 
 import { useState } from "react"
-import plus from "./../../public/assets/plus.svg"
+import plus from "./../../public/assets/plus.png"
+import minus from "./../../public/assets/minus.png"
 const { default: Image } = require("next/image")
 
 const Commitments = ({image, benefits, text}) => {
@@ -22,9 +23,9 @@ const Commitments = ({image, benefits, text}) => {
             <p className="max-w-[354px]">{benefits}</p>
             {/* <p>Transportation</p> */}
             </div>
-            <button className="bg-[#2D7CD0] px-[10px] py-[5px] lg:py-[6px] lg:px-[20px] cursor-pointer text-white  rounded-[100px] font-bold md:text-[25px] flex items-center " onClick={() => setReadMore(!readMore)}>{readMore?'Read Less':'Read More'}<span className="text-white font-normal p-2.5 border-[#FEFEFE] bg-[#FEFEFE] border-[1.5px] rounded-full ml-[13.3px]">
-              <Image src={plus} alt="" />
-              </span></button>
+            <button className="bg-[#2D7CD0] px-[10px] py-[5px] lg:py-[6px] lg:px-[20px] cursor-pointer text-white  rounded-[100px] font-bold md:text-[25px] gap-[13px] flex items-center " onClick={() => setReadMore(!readMore)}>{readMore?'Read Less':'Read More'}
+              {readMore == true ? <Image src={minus} alt="" />:<Image src={plus} alt="" />}
+              </button>
             </div>
            </div>
 }

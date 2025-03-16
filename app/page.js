@@ -26,13 +26,13 @@ import picture11 from "./../public/assets/picture11.webp"
 const commitments = [
   {image: safeandaffordavle, benefits: "Safe and affordable transportation", text: ["At KoroRyde, we are committed to providing a safe, reliable, and budget-friendly transportation experience for every passenger. Whether you're commuting to work, heading out for an event, or managing business logistics, we ensure that affordability never comes at the expense of safety","Our drivers undergo rigorous screening and training, while our vehicles are regularly inspected to meet high safety standards. With transparent pricing, real-time tracking, and 24/7 customer support, you can ride with confidence, knowing you're in good hands", "Choose KoroRyde—where your safety and affordability go hand in hand"]},
   {
-    image: green, benefits: "CNG-powered cars and EV bikes.", text: ""
+    image: green, benefits: "CNG-powered cars and EV bikes.", text: ["At KoroRyde, we are committed to providing a safe, reliable, and budget-friendly transportation experience for every passenger. Whether you're commuting to work, heading out for an event, or managing business logistics, we ensure that affordability never comes at the expense of safety","Our drivers undergo rigorous screening and training, while our vehicles are regularly inspected to meet high safety standards. With transparent pricing, real-time tracking, and 24/7 customer support, you can ride with confidence, knowing you're in good hands", "Choose KoroRyde—where your safety and affordability go hand in hand"]
   },
   {
-    image: delivery, benefits: "Offering a seamless, fast delivery service."
+    image: delivery, benefits: "Offering a seamless, fast delivery service.", text: ["At KoroRyde, we are committed to providing a safe, reliable, and budget-friendly transportation experience for every passenger. Whether you're commuting to work, heading out for an event, or managing business logistics, we ensure that affordability never comes at the expense of safety","Our drivers undergo rigorous screening and training, while our vehicles are regularly inspected to meet high safety standards. With transparent pricing, real-time tracking, and 24/7 customer support, you can ride with confidence, knowing you're in good hands", "Choose KoroRyde—where your safety and affordability go hand in hand"]
   },
   {
-    image: investment, benefits: "Investment opportunities for individuals and businesses."
+    image: investment, benefits: "Investment opportunities for individuals and businesses.", text: ["At KoroRyde, we are committed to providing a safe, reliable, and budget-friendly transportation experience for every passenger. Whether you're commuting to work, heading out for an event, or managing business logistics, we ensure that affordability never comes at the expense of safety","Our drivers undergo rigorous screening and training, while our vehicles are regularly inspected to meet high safety standards. With transparent pricing, real-time tracking, and 24/7 customer support, you can ride with confidence, knowing you're in good hands", "Choose KoroRyde—where your safety and affordability go hand in hand"]
   }
 ]
 
