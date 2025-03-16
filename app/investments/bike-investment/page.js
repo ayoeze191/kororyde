@@ -1,9 +1,8 @@
 const { default: OverallLayout } = require("@/app/OverallLayout")
 const { default: Header } = require("../../Header")
 import Image from "next/image"
-import KoroRYDEInvestor from "./../../../public/assets/cng-investor.png"
-
-import KoroRYDEInvestor2 from "./../../../public/assets/cng-investor2.png"
+import KoroRYDEInvestor from "./../../../public/assets/KoroRYDE-Investor.png"
+import KoroRYDEInvestor2 from "./../../../public/assets/KoroRYDE-Investor2 1.png"
 import starter from "./../../../public/assets/starter.png"
 import premium from "./../../../public/assets/Premium.png" 
 import logo from "./../../../public/assets/logo.webp"
@@ -16,17 +15,20 @@ const page = () => {
         <Header/>
         </div>
         <p className="text-[#2D7CD0] text-[30px] lg:text-[50px] font-bold pt-[50px]  mx-auto lg:pt-[100px]  lg:w-full text-center font-[family-name:var(--font-bricolage-grotesque)] [text-shadow:3px_2px_0px_#252B42]">
-        <span className="text-red-500">Few Slots Left</span> - Convert To CNG & SAVE Over
-        <br/> 500000 Monthly on <span className="font-bold underline">Fuel | Safe & Secure</span>
+        Invest in the Future of Eco-Friendly Mobility
+        <br/>with KoroRYDE!
         </p>
         <div className="mt-[100px] mx-auto px-[20px] sm:px-[30px] lg:px-[140px] flex-col md:flex-row flex items-center gap-[68px]">
             <div className="md:w-1/2 w-full"><Image src={KoroRYDEInvestor} className="w-full" alt=""/></div>
             <p className="w-full md:w-1/2">
-                <p className="font-bold text-center text-[25px] leading-[150%] font-[family-name:var(--font-bricolage-grotesque)]">Switch to CNG & Save Big with KoroRYDE!<br/>
+                <p className="font-bold text-center text-[25px] leading-[150%] font-[family-name:var(--font-bricolage-grotesque)]">Why You Need To Invest in KoroRYDE’s<br/>
 EV Bike Initiative?
 </p>
 <p className="text-[18px] font-[family-name:var(--font-bricolage-grotesque)] text-center text-[#656565] mt-[20px]">
-Are you an e-hailing driver looking to slash your fuel costs and boost your earnings? Converting your car to CNG is the best decision you’ll ever make!
+    The world is shifting towards sustainable transportation, and
+KoroRYDE is leading the charge! With eco-friendly EV bikes, we’re not
+just transforming mobility, we’re creating a profitable investment
+opportunity for smart investors like you.
 <br/>
 ✅ Earn up to ₦1.5M in 24 months✅ Low-risk, high-reward investment model✅ Sustainable and future-proof business✅ Be part of Nigeria’s green mobility revolution
 </p>
@@ -58,15 +60,16 @@ Are you an e-hailing driver looking to slash your fuel costs and boost your earn
         <div className="mt-[100px] mx-auto px-[20px] sm:px-[30px] lg:px-[140px] flex flex-col md:flex-row items-center gap-[20px] md:gap-[68px] mb-[100px]">
             <div className="w-full md:w-1/2 order-2"><Image src={KoroRYDEInvestor2} className="w-full" alt=""/></div>
             <p className="w-full md:w-1/2">
-                <p className="font-bold text-center text-[25px] leading-[150%] font-[family-name:var(--font-bricolage-grotesque)]">🌍 Why Convert to CNG?
+                <p className="font-bold text-center text-[25px] leading-[150%] font-[family-name:var(--font-bricolage-grotesque)]">Why You Need To Invest Now!
 
 </p>
 <p className="text-[18px] font-[family-name:var(--font-bricolage-grotesque)] text-center text-[#656565] mt-[20px]">
-✅ Cut your fuel costs significantly
-✅ Increase your e-hailing profits
-✅ Enjoy a cleaner, eco-friendly ride
+The future of transportation is electric, sustainable, and profitable.
+KoroRYDE is pioneering this shift by combining clean energy
+mobility with smart investment opportunities. Don’t miss out on this
+once-in-a-lifetime opportunity to earn and drive the future!
 <p className="text-[#C20000] mt-[20px] font-bold">
-🚀 Limited slots available! Don’t miss this opportunity to transform your earnings.
+Act Now! Limited slots available.
 </p>
 </p>
 <div className="w-full flex justify-center flex-col items-center">
@@ -74,7 +77,7 @@ Are you an e-hailing driver looking to slash your fuel costs and boost your earn
 Secure your spot now!
 </button>
 <p className="text-[18px] mt-[50px]">
-    Start earning <span className="text-[#2D7CD0] ">5% Monthly</span> Interest Pay <span>In 12 months</span>
+    Start earning <span className="text-[#2D7CD0] ">#41600</span> for <span>24 months</span>
 </p>
 </div>
             </p>

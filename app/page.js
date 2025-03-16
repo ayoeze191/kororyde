@@ -105,7 +105,7 @@ Smart Mobility
         </div>
      </div>
 
-     <div className="bg-white py-[50px] md:py-[150px] md:px-[140px] px-[21px] w-full ">
+     <div className="bg-white pt-[50px] md:pt-[150px] md:px-[140px] px-[21px] w-full ">
       <h2 className="text-[#030303] text-[25px] text-center md:text-[50px] font-bold leading-[150%] mx-auto w-fit font-[family-name:var(--font-bricolage-grotesque)] [text-shadow:3px_2px_0px_0px_#2D7CD0]
 ">Ready to Experience KoroRYDE</h2>
      <p className="mt-[20px] text-[#656565] text-[13px]  md:text-[18px] leading-[150%] font-normal mx-auto w-fit font-[family-name:var(--font-bricolage-grotesque)]">Check out our range of services</p>
@@ -145,7 +145,7 @@ Smart Mobility
           </div>
         </div>
       </div>
-      <p className="text-[25px] md:text-[50px] mt-[50px] md:mt-[150px] leading-[150%] text-[#2D7CD0] font-bold font-[family-name:var(--font-bricolage-grotesque)] text-center [text-shadow:3px_2px_0px_0px_#252B42]
+      <p className="text-[25px] mb-[50px] md:text-[50px] mt-[50px] md:mt-[150px] leading-[150%] text-[#2D7CD0] font-bold font-[family-name:var(--font-bricolage-grotesque)] text-center [text-shadow:3px_2px_0px_0px_#252B42]
 ">
       The 4 focal commitments to<br/>
       our users
