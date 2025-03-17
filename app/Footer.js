@@ -1,6 +1,7 @@
 import Image from "next/image"
 import logo from "./../public/assets/logo.webp"
 import arrowup from "./../public/assets/arrowupright.webp"
+import Link from "next/link"
 
 const Footer = () => {
     return(
@@ -35,39 +36,51 @@ const Footer = () => {
     <hr className="border-[0.5px] lg:border-[1px] my-[20px] border-[#FEFEFE]"/>
 
     <div className="flex flex-col gap-[20px] items-start lg:items-center">
-      <p className="flex  items-center justify-center gap-[5px] lg:gap-[2.5px] text-[13px] lg:text-[18px] leading-[150%] font-normal font-[family-name:var(--font-bricolage-grotesque)] text-center">Invest a ride
+      <Link className="flex  items-center justify-center gap-[5px] lg:gap-[2.5px] text-[13px] lg:text-[18px] leading-[150%] font-normal font-[family-name:var(--font-bricolage-grotesque)] text-center" href={'/investments/ev-riders'}>Invest a ride
 <Image src={arrowup} alt="" className="w-[25px] h-[25px]"/>
-      </p>
-      <p className="flex  items-center gap-[5px] lg:gap-[2.5px] justify-center text-[13px] lg:text-[18px] leading-[150%] font-normal font-[family-name:var(--font-bricolage-grotesque)] text-center">Invest a bus
+      </Link>
+      <Link className="flex  items-center gap-[5px] lg:gap-[2.5px] justify-center text-[13px] lg:text-[18px] leading-[150%] font-normal font-[family-name:var(--font-bricolage-grotesque)] text-center" href="/investments/bike-investment">Invest a bus
 <Image src={arrowup} alt="" className="w-[25px] h-[25px]"/>
-      </p>
-      <p className="flex  items-center gap-[5px] lg:gap-[2.5px] justify-center text-[13px] lg:text-[18px] leading-[150%] font-normal font-[family-name:var(--font-bricolage-grotesque)] text-center">Advertisement
+      </Link>
+      <Link className="flex  items-center gap-[5px] lg:gap-[2.5px] justify-center text-[13px] lg:text-[18px] leading-[150%] font-normal font-[family-name:var(--font-bricolage-grotesque)] text-center" href={"/investments/"}>Advertisement
 <Image src={arrowup} alt="" className="w-[25px] h-[25px]"/>
-      </p>
+      </Link>
+
+      <Link className="flex  items-center gap-[5px] lg:gap-[2.5px] justify-center text-[13px] lg:text-[18px] leading-[150%] font-normal font-[family-name:var(--font-bricolage-grotesque)] text-center" href={"/list-cars"}>List Your car
+<Image src={arrowup} alt="" className="w-[25px] h-[25px]"/>
+      </Link>
      
     </div>
   </div>
 
 
   <div className="w-fit flex flex-col font-[family-name:var(--font-bricolage-grotesque)]">
-    <p className="text-[#FEFEFE] font-bold text-[18px] lg:text-[25px] leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-center">About Us</p>
+    <p className="text-[#FEFEFE] font-bold text-[18px] lg:text-[25px] leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-center" >About Us</p>
     <hr className="border-[0.5px] lg:border-[1px] my-[20px] border-[#FEFEFE]"/>
     <div className="flex flex-col gap-[20px]">
-      <p className="flex  items-center justify-center gap-[5px] lg:gap-[2.5px] text-[13px] lg:text-[18px] leading-[150%] font-normal font-[family-name:var(--font-bricolage-grotesque)] text-center">About Us
+      <Link className="flex  items-center justify-center gap-[5px] lg:gap-[2.5px] text-[13px] lg:text-[18px] leading-[150%] font-normal font-[family-name:var(--font-bricolage-grotesque)] text-center" href={'/about-us'}>About Us
 <Image src={arrowup} alt="" className="w-[25px] h-[25px]"/>
-      </p>
+      </Link>
+      <Link className="flex  items-center justify-center gap-[5px] lg:gap-[2.5px] text-[13px] lg:text-[18px] leading-[150%] font-normal font-[family-name:var(--font-bricolage-grotesque)] text-center" href={'/how-to-use'}>How KoroRYDE Works
+<Image src={arrowup} alt="" className="w-[25px] h-[25px]"/>
+      </Link>
+      <Link className="flex  items-center justify-center gap-[5px] lg:gap-[2.5px] text-[13px] lg:text-[18px] leading-[150%] font-normal font-[family-name:var(--font-bricolage-grotesque)] text-center" href={'/careers'}>Career
+<Image src={arrowup} alt="" className="w-[25px] h-[25px]"/>
+      </Link>
+      <Link className="flex  items-center justify-center gap-[5px] lg:gap-[2.5px] text-[13px] lg:text-[18px] leading-[150%] font-normal font-[family-name:var(--font-bricolage-grotesque)] text-center" href={'/joinUs'}>Join Us
+<Image src={arrowup} alt="" className="w-[25px] h-[25px]"/>
+      </Link>
      
     </div>
   </div>
   
   <div className="w-fit flex flex-col font-[family-name:var(--font-bricolage-grotesque)]">
-    <p className="text-[#FEFEFE] font-bold text-[18px] lg:text-[25px] leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-center">Contact Us</p>
+    <p className="text-[#FEFEFE] font-bold text-[18px] lg:text-[25px] leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-center" href={''}>Contact Us</p>
     <hr className="border-[0.5px] lg:border-[1px] my-[20px] border-[#FEFEFE]"/>
-
     <div className="flex flex-col gap-[20px]">
-      <p className="flex  items-center gap-[5px] lg:gap-[2.5px] justify-center text-[13px] lg:text-[18px] leading-[150%] font-normal font-[family-name:var(--font-bricolage-grotesque)] text-center"> Contact Us
+      <Link className="flex  items-center gap-[5px] lg:gap-[2.5px] justify-center text-[13px] lg:text-[18px] leading-[150%] font-normal font-[family-name:var(--font-bricolage-grotesque)] text-center" href={'/contact-us'}> Contact Us
 <Image src={arrowup} alt="" className="w-[25px] h-[25px]"/>
-      </p>
+      </Link>
      
     </div>
   </div>
