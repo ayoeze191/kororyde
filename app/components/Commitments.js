@@ -16,7 +16,7 @@ const Commitments = ({image, benefits, text}) => {
             <div className="relative rounded-[10px]">
               <div className="overlay rounded-[10px] absolute w-full h-full top-0 bg-black opacity-[0.3] z-1"></div>
               <div className="h-full rounded-[10px]"><Image src={image} alt="" className="rounded-[10px] w-full h-full"/></div>
-             { readMore == true && <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} transition={transition} className="absolute  h-full flex flex-col gap-[20px] rounded-[10px] bg-[#2D7CD0] top-0 w-full z-40 text-[#FEFEFE] p-[20px] text-[18px] leading-[150%]">
+             { readMore == true && <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} transition={transition} className="absolute  h-full flex flex-col gap-[20px] rounded-[10px] bg-[#2D7CD0] top-0 w-full z-40 text-[#FEFEFE] p-[20px] text-[14px] md:text-[18px] leading-[150%]">
                 {text.map((te, index) => <div key={index} className="">
                   {te}
                 </div>)}
@@ -29,8 +29,8 @@ const Commitments = ({image, benefits, text}) => {
             {/* <p>Transportation</p> */}
             </div>
             <motion.button transition={transition} initial={{ height: 'auto' }}
-  animate={{ height: "auto" }} className="bg-[#2D7CD0] px-[10px] py-[5px] lg:py-[6px] lg:px-[20px] cursor-pointer text-white  rounded-[100px] font-bold md:text-[25px] gap-[13px] flex items-center " onClick={() => setReadMore(!readMore)}>{readMore?'Read Less':'Read More'}
-              {readMore == true ? <Image src={minus} alt="" />:<Image src={plus} alt="" />}
+  animate={{ height: "auto" }} className="bg-[#2D7CD0] text-[14px] px-[4px] md:px-[10px] py-[5px] lg:py-[6px] lg:px-[20px] cursor-pointer text-white  rounded-[100px] font-bold lg:text-[25px] gap-[6px] lg:gap-[13px] flex items-center " onClick={() => setReadMore(!readMore)}>{readMore?'Read Less':'Read More'}
+              {readMore == true ? <Image src={minus} alt="" className="w-[20px] md:w-[initial]" />:<Image src={plus} alt="" className="w-[20px] md:w-[initial]"/>}
               </motion.button>
             </div>
            </div>

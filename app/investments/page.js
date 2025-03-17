@@ -15,6 +15,7 @@ import MakeMoney from "./../../public/assets/makeMoney.webp"
 import MakeMoney1 from "./../../public/assets/makeMoney1.webp"
 import MakeMoney3 from "./../../public/assets/MakeMoney2.webp"
 import Link from "next/link"
+import KoroRYDEInvestor from "./../../public/assets/evriders.png"
 
 
 const Page = () => {
@@ -59,9 +60,9 @@ As an investor, you have a unique opportunity to earn weekly income for 2 years 
 a sustainable, efficient, and profitable transport network.
       </p>
       {/*  */}
-      <div className="mx-auto max-w-[1402px] flex flex-col md:flex-row gap-[60px] mt-[30px] md:mt-[50px]">
+      <div className="mx-auto max-w-[1402px] grid grid-cols-1 md:grid-cols-2  gap-[60px] mt-[30px] md:mt-[50px]">
         <div className="p-[20px] bg-[#F6F6F6] ">
-        <Image src={cng} alt="" />
+        <div><Image src={cng} alt="" /></div>
         <p className="mt-[52px] text-[#010101] text-[25px] font-bold font-[family-name:var(--font-bricolage-grotesque)]">CNG Car Investment</p>
         <p className="font-[family-name:var(--font-bricolage-grotesque)] mt-[30px] text-[#656565] leading-[150%]">
         ✅ Your CNG car will be used by verified KoroRYDE drivers for ride-hailing.<br/>
@@ -77,7 +78,7 @@ a sustainable, efficient, and profitable transport network.
         </div>
 
         <div className="p-[20px] bg-[#F6F6F6] ">
-        <Image src={bike} alt="" />
+        <div><Image src={bike} alt="" /></div>
         <p className="mt-[52px] text-[#010101] text-[25px] font-bold font-[family-name:var(--font-bricolage-grotesque)]">EV Bike Investment</p>
         <p className="font-[family-name:var(--font-bricolage-grotesque)] mt-[30px] text-[#656565] leading-[150%]">
         ✅ Your electric bike will be used for deliveries on the KoroRYDE platform.<br/>
@@ -90,6 +91,23 @@ a sustainable, efficient, and profitable transport network.
           <Link href="/investments/ev-riders">  Start investing today</Link>
         </button>
         </div>
+
+        <div className="p-[20px] bg-[#F6F6F6] lg:col-span-2 lg:place-self-center">
+      <div>  <Image src={KoroRYDEInvestor} alt=""  className="lg:h-[500px] lg:w-[631px]"/></div>
+        <p className="mt-[52px] text-[#010101] text-[25px] font-bold font-[family-name:var(--font-bricolage-grotesque)]">Ev Riders</p>
+        <p className="font-[family-name:var(--font-bricolage-grotesque)] mt-[30px] text-[#656565] leading-[150%]">
+        ✅✅ Zero Fuel Cost – Save BIG as you drive<br/>
+✅ Flexible Payment Plans – Own your bike without financial stress<br/>
+✅ High Earnings Potential – Ride, earn, and enjoy more profits<br/>
+✅ Durable & Low Maintenance – Designed for long-term use<br/>
+✅ Guaranteed Access to KoroRYDE Platform – More riders, more trips, more income!<br/>
+        </p>
+            <button className="bg-[#2D7CD0] px-[30px] py-[16.5px] text-[18px] font-bold leading-[150%] mt-[50px] rounded-[10px] text-[#FDFDFD]">
+          <Link href="/investments/bike-investments">  Start investing today</Link>
+
+        </button>
+        </div>
+
       </div>
             </div> 
 

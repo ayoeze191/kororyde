@@ -44,6 +44,7 @@ const ImageSlider = () => {
     ))}
   </Swiper>
 }
+// export default ImageSlider
 // export const ImageSliderTwo = () => {
 //     return  <Swiper
 //                 // modules={[ Autoplay]}
