@@ -14,6 +14,7 @@ import OverallLayout from "../OverallLayout"
 import MakeMoney from "./../../public/assets/makeMoney.webp"
 import MakeMoney1 from "./../../public/assets/makeMoney1.webp"
 import MakeMoney3 from "./../../public/assets/MakeMoney2.webp"
+import Link from "next/link"
 
 
 const Page = () => {
@@ -41,7 +42,7 @@ sustainable, efficient, and profitable transport network.</span></p>
 
 By investing in CNG cars or EV bikes, you will not only make money but also create jobs, reduce pollution, and support innovation in Nigeria’s transport sector.
                         </p>
-                        <button className="mt-[20px] md:mt-[50px] text-[#FDFDFD] bg-[#2D7CD0] text-[13px] md:text-[18px] font-bold leading-[150%] rounded-[10px] px-[20px] md:px-[30px] py-[10px]  md:py-[16.5px]">
+                        <button className="mt-[20px] md:mt-[50px] text-[#FDFDFD] bg-[#2D7CD0] text-[13px] md:text-[18px] font-bold leading-[150%] rounded-[10px] px-[20px] md:px-[30px] py-[10px]  md:py-[16.5px]" >
                             Start investing today
                         </button>
                     </div>
@@ -70,7 +71,7 @@ a sustainable, efficient, and profitable transport network.
 ✅ Contribute to a cleaner and more affordable transport system.<br/>
         </p>
             <button className="bg-[#2D7CD0] px-[30px] py-[16.5px] text-[18px] font-bold leading-[150%] mt-[50px] rounded-[10px] text-[#FDFDFD]">
-          <a href="https://kororyde.com.ng/cng-financing/">  Start investing today</a>
+          <Link href="/investments/cng-financing">  Start investing today</Link>
 
         </button>
         </div>
@@ -86,7 +87,7 @@ a sustainable, efficient, and profitable transport network.
 ✅ Join the green energy revolution while making money!<br/>
         </p>
             <button className="bg-[#2D7CD0] px-[30px] py-[16.5px] text-[18px] font-bold leading-[150%] mt-[50px] rounded-[10px] text-[#FDFDFD]">
-          <a href="https://kororyde.com.ng/ev-riders/">  Start investing today</a>
+          <Link href="/investments/ev-riders">  Start investing today</Link>
         </button>
         </div>
       </div>

@@ -30,7 +30,9 @@ KoroRYDE is leading the charge! With eco-friendly EV bikes, we’re not
 just transforming mobility, we’re creating a profitable investment
 opportunity for smart investors like you.
 <br/>
-✅ Earn up to ₦1.5M in 24 months✅ Low-risk, high-reward investment model✅ Sustainable and future-proof business✅ Be part of Nigeria’s green mobility revolution
+<p className="text-center mt-[20px]">
+✅ Earn up to ₦1.5M in 24 months <br/>✅ Low-risk, high-reward investment model <br/>✅ Sustainable and future-proof business<br/>✅ Be part of Nigeria’s green mobility revolution
+</p>
 </p>
             </p>
         </div>
