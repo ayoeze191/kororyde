@@ -7,7 +7,7 @@ const { default: Image } = require("next/image")
 import {motion} from "motion/react"
 const transition = {
   duration: 0.4,
-  // delay: 0.,
+  // delay: 0,
   ease: [0, 0.71, 0.2, 1.01],
 }
 const Commitments = ({image, benefits, text}) => {
