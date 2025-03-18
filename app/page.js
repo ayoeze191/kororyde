@@ -152,9 +152,9 @@ Smart Mobility
       </p>
      </div>
 
-     <div className=" px-[26px] md:px-[140px] mx-auto bg-white py-[40px] md:py-[130px]" style={{
+     <div className=" px-[26px] lg:px-[140px] mx-auto bg-white py-[40px] md:py-[130px]" style={{
        backgroundImage: "url('/assets/Frame.webp')"}}>
-      <div className="md:grid flex flex-col md:grid-cols-2 gap-[34px] md:gap-[60px]  mx-auto ">
+      <div className="md:grid flex flex-col md:grid-cols-2 gap-[34px] lg:gap-[60px]  mx-auto ">
 
         {commitments.map((comm, key) => {
           return <Commitments key={key} {...comm}/>

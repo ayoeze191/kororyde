@@ -24,13 +24,13 @@ const Commitments = ({image, benefits, text}) => {
               <p className="z-2 text-[#FEFEFE] font-bold font-[family-name:var(--font-bricolage-grotesque)] text-[18px] md:text-[40px] top-[8px] md:top-[27px] left-[17px] absolute">Safety & ease</p>
             </div>
             <div className="flex justify-between items-center mt-[20px]">
-            <div className="text-[#010101]  font-bold font-[family-name:var(--font-bricolage-grotesque)] text-[13px] md:text-[25px] leading-[150%]">
-            <p className="max-w-[200px] md:max-w-[354px]">{benefits}</p>
+            <div className="text-[#010101] flex-wrap  font-bold font-[family-name:var(--font-bricolage-grotesque)] text-[13px] xl:text-[25px] leading-[150%]">
+            <p className="max-w-[354px]">{benefits}</p>
             {/* <p>Transportation</p> */}
             </div>
             <motion.button transition={transition} initial={{ height: 'auto' }}
-  animate={{ height: "auto" }} className="bg-[#2D7CD0] text-[14px] px-[6px] md:px-[10px] py-[5px] lg:py-[6px] lg:px-[20px] cursor-pointer text-white  rounded-[100px] font-bold lg:text-[25px] gap-[6px] lg:gap-[13px] flex items-center " onClick={() => setReadMore(!readMore)}>{readMore?'Read Less':'Read More'}
-              {readMore == true ? <Image src={minus} alt="" className="w-[20px] md:w-[initial]" />:<Image src={plus} alt="" className="w-[20px] md:w-[initial]"/>}
+  animate={{ height: "auto" }} className="bg-[#2D7CD0] text-center  text-[13px] font-bold font-[family-name:var(--font-bricolage-grotesque)] flex justify-between w-[119] lg:w-[213px] lg:h-[50px] lg:text-[20px]  rounded-[100px] py-[5px] px-[10px] text-white h-[30px] items-center" onClick={() => setReadMore(!readMore)}>{readMore?'Read Less':'Read More'}
+              {readMore == true ? <Image src={minus} alt="" className="w-[20px] lg:w-[33px]" />:<Image src={plus} alt="" className="w-[20px] lg:w-[33px]"/>}
               </motion.button>
             </div>
            </div>

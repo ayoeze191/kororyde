@@ -17,8 +17,8 @@ const SideBar = ({show}) => {
     'transition': 'all 0.3s'
    }}
    >
-        <div className="backdrop-blur-[35px] border-[#FEFEFE] flex justify-between">
-           <div> <Image src={logo} alt=""/></div>
+        <div className="backdrop-blur-[35px] rounded-[100px]  w-full  border-[#FEFEFE] border-solid flex justify-between">
+           <div className="mx-auto w-fit"> <Image src={logo} alt=""/></div>
            <div className="bg-white rounded-[100px] h-[50px] w-[50px] flex items-center justify-center">
          <div onClick={toggleSidebar} className="cursor-pointer">  <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M24.5005 6.25L7.00049 23.75M7.00049 6.25L24.5005 23.75" stroke="#C20000" strokeWidth="1.875" strokeLinecap="round" strokeLinejoin="round"/>
