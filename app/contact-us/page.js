@@ -22,7 +22,7 @@ const ContactUs = () => {
     </div>
     <div className="mt-[100px] bg-[url('/assets/ServiceHeroBg.webp')] bg-cover py-[113px]">
     <p className="text-[#2D7CD0] text-[30px] md:text-[50px] font-bold leading-[150%]
-    font-[family-name:var(--font-bricolage-grotesque)] text-center [text-shadow:3px_2px_0px_0px_#252B42]
+    font-[family-name:var(--font-bricolage-grotesque)] text-center 
     ">Contact Us</p>
         <p className="max-w-[1118px] mx-auto flex flex-col gap-[20px] text-[18px] font-normal leading-[150%]  mt-[40px] text-center  text-[#656565]" >Have questions or need assistance? We’re here to help! Reach out to us through
         any of the following channels:</p>

@@ -23,7 +23,7 @@ const page = () => {
                                 {/*  */}
                                 <div className="mt-[100px]">
                                 <p className="text-[#2D7CD0] text-[30px] md:text-[50px] font-bold leading-[150%] px-[20px] md:px-0
-            font-[family-name:var(--font-bricolage-grotesque)] text-center [text-shadow:3px_2px_0px_0px_#252B42]
+            font-[family-name:var(--font-bricolage-grotesque)] text-center 
             ">List Your Cars – Put Your CNG Car, EV Car,<br/> or EV Bike on KoroRYDE & Earn Daily!</p>
                                   <p className="max-w-[1118px] mx-auto flex flex-col gap-[20px] px-[20px] md:text-[18px] font-normal leading-[150%]  mt-[40px] mb-[100px] text-center text-[#656565]">
                                   Turn your vehicle into a daily income stream! List your CNG car, EV car, or EV bike<br/>

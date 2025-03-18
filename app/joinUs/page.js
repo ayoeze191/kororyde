@@ -18,7 +18,7 @@ const Page = () => {
                                     {/*  */}
                                     <div className="mt-[100px]">
                                     <p className="text-[#2D7CD0] text-[30px] md:text-[50px] font-bold leading-[150%]
-                font-[family-name:var(--font-bricolage-grotesque)] text-center [text-shadow:3px_2px_0px_0px_#252B42]
+                font-[family-name:var(--font-bricolage-grotesque)] text-center 
                 ">Join KoroRYDE Today!</p>
                                       <p className="max-w-[1118px] mx-auto flex flex-col gap-[20px] text-[18px] font-normal leading-[150%]  mt-[40px] mb-[100px] text-center text-[#656565]">
                                       Are you ready to earn, grow, and be part of a transportation revolution? Whether<br/>

@@ -25,11 +25,11 @@ const Commitments = ({image, benefits, text}) => {
             </div>
             <div className="flex justify-between items-center mt-[20px]">
             <div className="text-[#010101]  font-bold font-[family-name:var(--font-bricolage-grotesque)] text-[13px] md:text-[25px] leading-[150%]">
-            <p className="max-w-[354px]">{benefits}</p>
+            <p className="max-w-[200px] md:max-w-[354px]">{benefits}</p>
             {/* <p>Transportation</p> */}
             </div>
             <motion.button transition={transition} initial={{ height: 'auto' }}
-  animate={{ height: "auto" }} className="bg-[#2D7CD0] text-[14px] px-[4px] md:px-[10px] py-[5px] lg:py-[6px] lg:px-[20px] cursor-pointer text-white  rounded-[100px] font-bold lg:text-[25px] gap-[6px] lg:gap-[13px] flex items-center " onClick={() => setReadMore(!readMore)}>{readMore?'Read Less':'Read More'}
+  animate={{ height: "auto" }} className="bg-[#2D7CD0] text-[14px] px-[6px] md:px-[10px] py-[5px] lg:py-[6px] lg:px-[20px] cursor-pointer text-white  rounded-[100px] font-bold lg:text-[25px] gap-[6px] lg:gap-[13px] flex items-center " onClick={() => setReadMore(!readMore)}>{readMore?'Read Less':'Read More'}
               {readMore == true ? <Image src={minus} alt="" className="w-[20px] md:w-[initial]" />:<Image src={plus} alt="" className="w-[20px] md:w-[initial]"/>}
               </motion.button>
             </div>

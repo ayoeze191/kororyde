@@ -52,7 +52,7 @@ const Services = () => {
     </div>
     <div className="mt-[100px] bg-[url('/assets/ServiceHeroBg.webp')] bg-cover py-[22px] px-[20px] md:px-0 md:py-[113px]">
     <p className="text-[#2D7CD0] text-[30px] md:text-[50px] font-bold leading-[150%]
-    font-[family-name:var(--font-bricolage-grotesque)] text-center [text-shadow:3px_2px_0px_0px_#252B42]
+    font-[family-name:var(--font-bricolage-grotesque)] text-center 
     ">Product & Services</p>
     <p className="max-w-[1118px] mx-auto flex flex-col gap-[20px] text-[18px] font-normal leading-[150%] mt-[20px] md:mt-[40px] text-center">At KoroRyde, we offer a range of transportation solutions designed to meet the diverse needs of our customers. Whether you’re commuting to work, running errands, or planning a long-distance trip, KoroRyde ensures a seamless, safe, and convenient experience. 
 <span className="text-[#474747]">Explore our services below:</span></p>

@@ -68,7 +68,7 @@ const page = () => {
                         {/*  */}
                         <div className="mt-[100px]">
                         <p className="text-[#2D7CD0] text-[30px] md:text-[50px] font-bold leading-[150%]
-    font-[family-name:var(--font-bricolage-grotesque)] text-center [text-shadow:3px_2px_0px_0px_#252B42]
+    font-[family-name:var(--font-bricolage-grotesque)] text-center 
     ">Careers at KoroRYDE – Join the<br/> Future of Mobility!</p>
                           <p className="px-[20px] md:px-0 max-w-[1118px] mx-auto flex flex-col gap-[20px] text-base md:text-[18px] font-normal leading-[150%]  mt-[40px] text-center text-[#656565]">
                           At KoroRYDE, we are building the future of smart transportation, delivery, and sustainable mobility,<br/>

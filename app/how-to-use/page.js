@@ -27,7 +27,7 @@ const page = () => {
                 <div>
                 <div className="mt-[100px] bg-[url('/assets/ServiceHeroBg.webp')] bg-cover py-[113px]">
     <p className="text-[#2D7CD0] text-[30px] md:text-[50px] font-bold leading-[150%]
-    font-[family-name:var(--font-bricolage-grotesque)] text-center [text-shadow:3px_2px_0px_0px_#252B42]
+    font-[family-name:var(--font-bricolage-grotesque)] text-center 
     ">How to Use the KoroRYDE APP</p>
         <p className="max-w-[1118px] mx-auto flex flex-col gap-[20px] text-[18px] font-normal leading-[150%]  mt-[40px] text-center text-[#656565] px-[20px]">
         KoroRYDE provides seamless, safe, and affordable ride-hailing services at your fingertips.<br/>
@@ -61,7 +61,7 @@ convenient transportation experience.
 <div className="px-[20px] md:px-0">
                 <div className="mt-[100px] bg-[url('/assets/ServiceHeroBg.webp')] bg-cover py-[113px]">
     <p className="text-[#2D7CD0] text-[30px] md:text-[50px] font-bold leading-[150%]
-    font-[family-name:var(--font-bricolage-grotesque)] text-center [text-shadow:3px_2px_0px_0px_#252B42]
+    font-[family-name:var(--font-bricolage-grotesque)] text-center 
     ">How to Use the KoroRYDE Delivery APP</p>
         <p className="max-w-[1118px] mx-auto flex flex-col gap-[20px] text-[18px] font-normal leading-[150%]  mt-[40px] text-center text-[#656565]">
         KoroRYDE Delivery makes sending and receiving packages fast, affordable, and hassle-free.

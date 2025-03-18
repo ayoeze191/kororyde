@@ -27,7 +27,7 @@ const Page = () => {
     </div>
     <div className="mt-[100px] bg-[url('/assets/ServiceHeroBg.webp')] bg-cover py-[113px]">
     <p className="text-[#2D7CD0] text-[30px] md:text-[50px] font-bold leading-[150%]
-    font-[family-name:var(--font-bricolage-grotesque)] text-center [text-shadow:3px_2px_0px_0px_#252B42]
+    font-[family-name:var(--font-bricolage-grotesque)] text-center 
     ">Investment Oppurtuinities</p>
         <p className="max-w-[1118px] mx-auto flex flex-col gap-[20px] text-[18px] font-normal leading-[150%]  mt-[40px] text-center text-[#010101]">Drive the Future. Earn Passively. Empower Communities.<span className="text-[#656565]">KoroRYDE is transforming transportation in Nigeria by providing eco-friendly ride-hailing and delivery services.
 As an investor, you have a unique opportunity to earn weekly income for 2 years while helping us build a<br/>

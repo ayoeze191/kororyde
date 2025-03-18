@@ -23,7 +23,7 @@ const Page = () => {
     </div>
     <div className="mt-[100px] bg-[url('/assets/ServiceHeroBg.webp')] bg-cover py-[113px]">
     <p className="text-[#2D7CD0] text-[30px] md:text-[50px] font-bold leading-[150%]
-    font-[family-name:var(--font-bricolage-grotesque)] text-center [text-shadow:3px_2px_0px_0px_#252B42]
+    font-[family-name:var(--font-bricolage-grotesque)] text-center 
     ">About Us</p>
         <p className="px-[20px] max-w-[1118px] mx-auto flex flex-col gap-[20px] text[13px] md:text-[18px] font-normal leading-[150%]  mt-[40px] text-center text-[#010101]">KoroRYDE is a technology company transforming the way people and goods move across Nigeria and Africa. Our innovative mobility and logistics platform connects riders, drivers, investors, and businesses through smart digital solutions.
         <span className="text-[#656565]">We provide seamless ride-hailing, delivery, freight, and investment opportunities while ensuring affordability, safety, and efficiency.</span></p>
@@ -45,7 +45,7 @@ of Africa’s transportation revolution.<br/>
 
     <div className="mt-[100px] ">
     <p className="text-[#2D7CD0] text-[25px] md:text-[50px] font-bold leading-[150%]
-    font-[family-name:var(--font-bricolage-grotesque)] text-center [text-shadow:3px_2px_0px_0px_#252B42]
+    font-[family-name:var(--font-bricolage-grotesque)] text-center 
     ">KoroRyde Impact</p>
    <p className="max-w-[1118px] mx-auto text-[#656565]  flex flex-col gap-[20px] text-[18px] font-normal leading-[150%] mt-[40px] text-center">At KoroRYDE, we are more than just a ride-hailing and delivery platform—we are a movement dedicated to
 empowering communities, creating economic opportunities, and driving sustainable change.

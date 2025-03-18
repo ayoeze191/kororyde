@@ -94,7 +94,7 @@ Smart Mobility
 
 
      <div className=" bg-white ">
-        <p className="text-[#2D7CD0] text-[30px] lg:text-[50px] font-bold pt-[50px]  mx-auto lg:pt-[150px]  lg:w-full text-center font-[family-name:var(--font-bricolage-grotesque)] [text-shadow:3px_2px_0px_#252B42]">KoroRYDE in numbers</p>
+        <p className="text-[#2D7CD0] text-[30px] lg:text-[50px] font-bold pt-[50px]  mx-auto lg:pt-[150px]  lg:w-full text-center font-[family-name:var(--font-bricolage-grotesque)] ">KoroRYDE in numbers</p>
         <div className="md:flex grid grid-cols-2 lg:flex lg:gap-[154px] gap-[27px] flex-col lg:flex-row mx-auto w-fit mt-[30px] lg:mt-[50px] ">
           {[{numb: 100, title: 'CNG Cars'}, {numb: 500, title: 'EV Bikes'}, {numb: 50, title: 'EV Cars'}, {numb: 12250, title: 'Total Rides'}].map((kor, index) => {
             return           <div key={index} className="flex flex-col text-center text-[18px]">
@@ -106,7 +106,7 @@ Smart Mobility
      </div>
 
      <div className="bg-white pt-[50px] md:pt-[150px] md:px-[140px] px-[21px] w-full ">
-      <h2 className="text-[#030303] text-[25px] text-center md:text-[50px] font-bold leading-[150%] mx-auto w-fit font-[family-name:var(--font-bricolage-grotesque)] [text-shadow:3px_2px_0px_0px_#2D7CD0]
+      <h2 className="text-[#030303] text-[25px] text-center md:text-[50px] font-bold leading-[150%] mx-auto w-fit font-[family-name:var(--font-bricolage-grotesque)] 
 ">Ready to Experience KoroRYDE</h2>
      <p className="mt-[20px] text-[#656565] text-[13px]  md:text-[18px] leading-[150%] font-normal mx-auto w-fit font-[family-name:var(--font-bricolage-grotesque)]">Check out our range of services</p>
       <div className="mt-[50px] flex gap-[39px] overflow-x-scroll scrollbar-hide w-full">
@@ -145,7 +145,7 @@ Smart Mobility
           </div>
         </div>
       </div>
-      <p className="text-[25px] mb-[50px] md:text-[50px] mt-[50px] md:mt-[150px] leading-[150%] text-[#2D7CD0] font-bold font-[family-name:var(--font-bricolage-grotesque)] text-center [text-shadow:3px_2px_0px_0px_#252B42]
+      <p className="text-[25px] mb-[50px] md:text-[50px] mt-[50px] md:mt-[150px] leading-[150%] text-[#2D7CD0] font-bold font-[family-name:var(--font-bricolage-grotesque)] text-center 
 ">
       The 4 focal commitments to<br/>
       our users
@@ -163,7 +163,7 @@ Smart Mobility
      </div>
 
      <div className="bg-white  text-[#010101] pt-[50px] md:pt-[150px]">
-      <p className="text-[25px] mx-auto  md:max-w-[initial] md:text-[50px] leading-[150%]  font-[family-name:var(--font-bricolage-grotesque)] font-bold text-center [text-shadow:3px_2px_0px_0px_#2D7CD0]
+      <p className="text-[25px] mx-auto  md:max-w-[initial] md:text-[50px] leading-[150%]  font-[family-name:var(--font-bricolage-grotesque)] font-bold text-center 
 ">What pictures have to say about<br/>
       KoroRyde</p>
       <div className="flex gap-[10px] overflow-x-scroll scrollbar-hide mt-[50px] w-full">
@@ -231,7 +231,7 @@ Smart Mobility
      </div>
 
      <div className="bg-white py-[50px] md:py-[150px]">
-      <p className="text-[25px] md:text-[50px] mb-[50px] text-[#2D7CD0] leading-[150%]  font-[family-name:var(--font-bricolage-grotesque)] font-bold text-center [text-shadow:3px_2px_0px_0px_#252B42]
+      <p className="text-[25px] md:text-[50px] mb-[50px] text-[#2D7CD0] leading-[150%]  font-[family-name:var(--font-bricolage-grotesque)] font-bold text-center 
 ">Testimonies</p>
 <div className="flex gap-4 mb-4  flex-col md:flex-row md:gap-10 scrollbar-hide overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide md:mb-10 px-4 md:px-8 lg:px-16">
   {[
