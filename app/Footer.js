@@ -16,7 +16,7 @@ return (
       <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="relative">
             <Link
                   href={href}
-                  className={`flex items-center justify-start lg:justify-center gap-[0.3125rem] lg:gap-[0.15625rem] text-[0.8125rem]  xl:text-[1.125rem] leading-[150%] font-normal font-[family-name:var(--font-bricolage-grotesque)] transition-all duration-300 ${
+                  className={`flex items-center justify-start lg:justify-center gap-[0.3125rem] lg:gap-[0.15625rem] text-[0.8125rem]  xl:text-[1rem] leading-[150%] font-normal font-[family-name:var(--font-bricolage-grotesque)] transition-all duration-300 ${
                         isActive ? 'text-[#FFD700] underline' : 'hover:text-[#FACC15] text-white'
                   }`}
             >
