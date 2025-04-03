@@ -63,7 +63,7 @@ export default function Home() {
         <Image src={sparkles} alt="" />
       </p>
       Welcome to KoroRYDE</div>
-     <div className=" font-[family-name:var(--font-bricolage-grotesque)] font-bold leading-[150%] text-[30px] text-center lg:text-left lg:text-[60px] mt-[30px] md:mt-[50px] text-[#FEFEFE]" > 
+     <div className=" font-[family-name:var(--font-bricolage-grotesque)] font-bold leading-[150%] text-[2.5rem] text-center lg:text-left lg:text-[5rem] mt-[30px] md:mt-[50px] text-[#FEFEFE]" > 
      The Future of 
 Smart Mobility 
 & Logistics
