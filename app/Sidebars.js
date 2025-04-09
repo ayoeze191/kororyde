@@ -30,9 +30,11 @@ const SideBar = ({show}) => {
     <div className=" py-[70px] font-bold flex flex-col gap-[30px] text-white items-center">
          <p onClick={() => changeurl('/')} className="cursor-pointer">Home</p>
          <p onClick={() => changeurl('/services')} className="cursor-pointer">Service</p>
-         <p onClick={() => changeurl('/investments')} className="cursor-pointer">Investment</p>
+         <p onClick={() => changeurl('/earn')} className="cursor-pointer">Earn with KoroRYDE</p>
+         <p onClick={() => changeurl('/investments')} className="cursor-pointer">Invest</p>
          <p onClick={() => changeurl('/about-us')} className="cursor-pointer">About Us</p>
          <p onClick={() => changeurl('/contact-us')} className="cursor-pointer">Contact</p>
+         <p onClick={() => changeurl('/media')} className="cursor-pointer">Media</p>
     </div>
     <button className="bg-[#FEFEFE] font-bold  text-[#2D7CD0] px-[30px] py-[20px] mt-[50px] w-fit mx-auto rounded-[10px]">
 Download App
