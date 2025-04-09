@@ -1,55 +1,104 @@
-'use client';
-import { useSidebar } from '@/Context';
-import Image from 'next/image';
-import Link from 'next/link';
+"use client";
+import { useSidebar } from "@/Context";
+import Image from "next/image";
+import Link from "next/link";
 import hamburger from "./../public/assets/hambuger.webp";
 import logo from "./../public/assets/logo.webp";
-import { usePathname } from 'next/navigation';
+import { usePathname } from "next/navigation";
+import { TiHome } from "react-icons/ti";
+
 export default function Navbar({ isHomePage }) {
   const { isSidebarOpen, toggleSidebar } = useSidebar();
-  const pathname = usePathname(); 
+  const pathname = usePathname();
   const isActive = pathname;
   return (
     <>
       {/* ✅ Top Navigation Bar */}
       <div
         className={`py-[8px] md:py-[14px]  ${
-          isHomePage ? 'backdrop-blur-[20px] border-[#FEFEFE]' : 'bg-[#2D7CD0] z-[9999999999999999] border-[#2D7CD0]'
+          isHomePage
+            ? "backdrop-blur-[20px] border-[#FEFEFE]"
+            : "bg-[#2D7CD0] z-[9999999999999999] border-[#2D7CD0]"
         } flex justify-between items-center border-[1.5px] rounded-[50px]  mx-auto px-1 sm:px-2  md:px-6 lg:px-8 `}
       >
-       <Link href={'/'} className="w-[130px] h-[30px] sm:w-[170px] -ml-2.5 sm:h-[44px] flex items-center xl:w-[250px] xl:h-[55px]">
-<Image src={logo} alt="Logo" className="w-full h-full" />
- </Link>
-        <div className='hidden md:flex  items-center xl:gap-[30px] 2xl:gap-[50px]'>
-      <div className='md:flex text-white gap-1 md:gap-2 lg:gap-3 xl:gap-3 2xl:gap-[30px]  mr-2'>
-        <NavItem text={'Home'} href={'/'} active={pathname=='/'}/>
-        <NavItem text={'Service'} href={'/services'} active={pathname=='/services'}/>
-        <NavItem text={'Investment Oppurtuinites'} href={'/investments'} active={pathname=='/investments'}/>
-        <NavItem text={'About us'} href={'/about-us'} active={pathname=='/about-us'}/>
-        <NavItem text={'Contact'} href={'/contact-us'} active={pathname=='contact-us'}/>
-      </div>
-      <button className={`py-2 px-2 text-[12px] xl:text-[12.5px] 2xl:text-[18px] xl:py-[16px] xl:px-[30px]  ${isHomePage ? 'bg-[#2D7CD0] text-white':'bg-[#FEFEFE] text-[#2D7CD0]'}   rounded-[8px] font-bold text-[#2D7CD0] font-[family-name:var(--font-bricolage-grotesque)]`}>Download App</button>
-      </div>
-      <div className='block md:hidden ' onClick={toggleSidebar}>
-      <Image src={hamburger}  alt=''/>
-      </div>
+        <Link
+          href={"/"}
+          className="w-[130px] h-[30px] sm:w-[170px] -ml-2.5 sm:h-[44px] flex items-center xl:w-[250px] xl:h-[55px]"
+        >
+          <Image src={logo} alt="Logo" className="w-full h-full" />
+        </Link>
+        <div className="hidden md:flex  items-center xl:gap-[30px] 2xl:gap-[50px]">
+          <div className="md:flex text-white gap-1 md:gap-2 lg:gap-3 xl:gap-3 2xl:gap-[30px]">
+            <NavItem text={"Home"} href={"/"} active={pathname == "/"} />
+            <NavItem
+              text={"Services"}
+              href={"/services"}
+              active={pathname == "/services"}
+            />
+            <NavItem
+              text={"Earn with KoroRYDE"}
+              href={"/earn"}
+              active={pathname == "/earn"}
+            />
+            <NavItem
+              text={"Invest"}
+              href={"/investments"}
+              active={pathname == "/investments"}
+            />
+            <NavItem
+              text={"About us"}
+              href={"/about-us"}
+              active={pathname == "/about-us"}
+            />
+            <NavItem
+              text={"Contact"}
+              href={"/contact-us"}
+              active={pathname == "contact-us"}
+            />
+            <NavItem
+              text={"Media"}
+              href={"/media"}
+              active={pathname == "/media"}
+            />
+          </div>
+
+          
+        </div>
+
+        <div className="hidden md:block">
+        <button
+            className={` py-2 px-2 text-[12px] xl:text-[12.5px] 2xl:text-[18px] xl:py-[16px] xl:px-[30px]  ${
+              isHomePage
+                ? "bg-[#2D7CD0] text-white"
+                : "bg-[#FEFEFE] text-[#2D7CD0]"
+            }   rounded-[8px] font-bold text-[#2D7CD0] font-[family-name:var(--font-bricolage-grotesque)]`}
+          >
+            Download App
+          </button>
+          </div>
+
+        <div className="block md:hidden " onClick={toggleSidebar}>
+          <Image src={hamburger} alt="" />
+        </div>
       </div>
     </>
   );
 }
 
 // ✅ Reusable Navigation Link Component
-const NavItem = ({ href, text, active }) => (
+const NavItem = ({ href, text, active, icon }) => (
   <Link
     prefetch={false}
     href={href}
-    className={`text-[13px] hover:text-[#FACC15] hover:underline hover:undeline-[#FACC15]  sm:text-[14px] md:text-[14px] xl:text-[18px] leading-[150%] font-bold ${active?'underline':'no-underline undeline-[#FACC15]'}`}
+    className={`text-[13px] hover:text-[#FACC15] hover:underline hover:undeline-[#FACC15]  sm:text-[14px] md:text-[14px] xl:text-[18px] leading-[150%] font-bold ${
+      active ? "underline" : "no-underline undeline-[#FACC15]"
+    }`}
   >
+    {icon && <span className="icon">{icon}</span>}
+
     {text}
   </Link>
 );
-
-
 
 //   {/* ✅ Logo */}
 //   <div className="w-[75px] h-[40px] flex items-center md:w-auto">

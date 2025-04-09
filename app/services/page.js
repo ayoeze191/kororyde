@@ -4,10 +4,10 @@ import FooterBg from "../FooterBg"
 import OverallLayout from "../OverallLayout"
 import service1 from "./../../public/assets/service1.webp"
 import service2 from "./../../public/assets/service2.webp"
-import service3 from "./../../public/assets/service3.webp"
-import service4 from "./../../public/assets/Service4.webp"
-import service5 from "./../../public/assets/Service5.webp"
-import service6 from "./../../public/assets/Service6.webp"
+import service3 from "./../../public/assets/service3.png"
+import service4 from "./../../public/assets/service4.png"
+import service5 from "./../../public/assets/service5.png"
+import service6 from "./../../public/assets/service6.png"
 
 import Service from "./Service"
 const allservices = [
@@ -18,27 +18,32 @@ const allservices = [
     },
     {
         img: service2,
-        title: "Delivery",
+        title: "KoroRYDE Delivery",
         description: "Beyond passenger rides, KoroRYDE connects consumers, businesses, and independent delivery riders, ensuring fast, secure, and efficient delivery services for food, groceries, parcels, and more. We empower small businesses and e-commerce platforms by providing a robust logistics network across Nigeria."
     },
     {
         img: service3,
-        title: "Private/Solo Ride",
-        description: "Enjoy a quiet and comfortable ride tailored just for you. Our private ride option ensures that you have the entire vehicle to yourself, allowing for a peaceful and uninterrupted journey. Whether you're heading to an important meeting, the airport, or simply prefer a solo travel experience, we've got you covered."
+        title: "Investment - Earn weekly by investment in EV and CNG vehicles",
+        description: "We offer a unique investment opportunity where individuals and businesses can invest in CNG cars, electric bikes, and delivery vehicles through our platform. Investors earn weekly passive income while helping to empower drivers and contribute to a greener environment.",
     },
     {
         img: service4,
-        title: "Private/Solo Ride",
-        description: "Enjoy a quiet and comfortable ride tailored just for you. Our private ride option ensures that you have the entire vehicle to yourself, allowing for a peaceful and uninterrupted journey. Whether you're heading to an important meeting, the airport, or simply prefer a solo travel experience, we've got you covered."
+        title: "Freight & Logistics Solutions",
+        description: "KoroRYDE connects shippers with reliable carriers to transport goods across cities, ensuring efficient and cost-effective freight services. We partner with businesses to optimize supply chain logistics."
     },
     {
         img: service5,
-        title: "Private/Solo Ride",
-        description: "Enjoy a quiet and comfortable ride tailored just for you. Our private ride option ensures that you have the entire vehicle to yourself, allowing for a peaceful and uninterrupted journey. Whether you're heading to an important meeting, the airport, or simply prefer a solo travel experience, we've got you covered."
+        title: "Advertise on KoroRYDE Vehicles",
+        description: "Businesses can place ads on our cars for maximum brand exposure across different locations"
     },
     {
         img: service6,
-        title: "Private/Solo Ride",
+        title: "Pay Bills & Buy Recharge Cards",
+        description: "Our platform allows users to pay utility bills and buy airtime easily within the app."
+    },
+    {
+        img: service6,
+        title: "CNG Conversion",
         description: "Enjoy a quiet and comfortable ride tailored just for you. Our private ride option ensures that you have the entire vehicle to yourself, allowing for a peaceful and uninterrupted journey. Whether you're heading to an important meeting, the airport, or simply prefer a solo travel experience, we've got you covered."
     }
 ]
