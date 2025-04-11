@@ -201,9 +201,7 @@ const Page = () => {
             </TemplateTwo>
           </div>
 
-          
           <div className="flex flex-col md:flex-row gap-[30px] md:gap-[60px] max-w-[1291px] mx-auto mt-[100px] mb-[50px] px-[20px]">
-            
             <div className="bg-[#EAF2FA]  w-full rounded-2xl flex p-[20px] gap-5 items-center">
               <div>
                 <Image
@@ -439,16 +437,14 @@ const Page = () => {
             </div>
           </div>
 
-
-
           <div className="py-[50px] md:py-[100px] mt-[100px] bg-[#133457]  ">
             <p className="text-[24px] md:text-[40px] font-[700] text-white text-center">
               Your Safety is Our priority at KoroRYDE
             </p>
             <p className="font-[400] text-[18px] py-[30px] text-white text-center max-w-[800px] m-[auto]">
               At KoroRYDE, safety is at the heart of everything we do. Whether
-              you're a rider, driver, or delivery partner, we are committed to
-              providing a secure, reliable, and comfortable experience. Our
+              you&apos;re a rider, driver, or delivery partner, we are committed
+              to providing a secure, reliable, and comfortable experience. Our
               advanced safety measures ensure that every trip is protected,
               monitored, and backed by technology for your peace of mind.
             </p>
@@ -457,7 +453,7 @@ const Page = () => {
             </p>
             {/* <div className="flex justify-center gap-[20px] my-[20px]"> */}
             <div className="flex flex-col my-[20px] md:flex-row items-center justify-center gap-[30px] ">
-              <div className="bg-[#2D7CD0] rounded-[20px] p-[20px] max-w-[300px] text-white h-[300px]" >
+              <div className="bg-[#2D7CD0] rounded-[20px] p-[20px] max-w-[300px] text-white h-[300px]">
                 <div>
                   <Image
                     alt=""
@@ -771,7 +767,7 @@ const Page = () => {
                   />
                 </div>
                 <p className="py-[20px] text-[18px] font-[700]">
-                Tech & Engineering
+                  Tech & Engineering
                 </p>
                 <p>Data Science, Software Development, App & Web Development</p>
               </div>
@@ -785,11 +781,9 @@ const Page = () => {
                   />
                 </div>
                 <p className="py-[20px] text-[18px] font-[700]">
-                Operations & Logistics
+                  Operations & Logistics
                 </p>
-                <p>
-                Fleet Management, Customer Support, Driver Relations
-                </p>
+                <p>Fleet Management, Customer Support, Driver Relations</p>
               </div>
 
               <div className="bg-[#F6F6F6] rounded-[20px] p-[20px] max-w-[300px]">
@@ -801,10 +795,10 @@ const Page = () => {
                   />
                 </div>
                 <p className="py-[20px] text-[18px] font-[700]">
-                Marketing & Sales
+                  Marketing & Sales
                 </p>
                 <p>
-                Social Media, Growth Marketing, Influencer & Partner Relations
+                  Social Media, Growth Marketing, Influencer & Partner Relations
                 </p>
               </div>
             </div>
@@ -818,7 +812,7 @@ const Page = () => {
                   />
                 </div>
                 <p className="py-[20px] text-[18px] font-[700]">
-                Finance & Investment
+                  Finance & Investment
                 </p>
                 <p>Investor Relations, Business Development</p>
               </div>
@@ -832,76 +826,74 @@ const Page = () => {
                   />
                 </div>
                 <p className="py-[20px] text-[18px] font-[700]">
-                Human Resources
+                  Human Resources
                 </p>
-                <p>
-                Talent Acquisition, Training & Development
-                </p>
+                <p>Talent Acquisition, Training & Development</p>
               </div>
             </div>
             <div className="bg-[#133457] mb-[100px] max-w-[1258px] font-[family-name:var(--font-bricolage-grotesque)] mx-auto mt-[100px] py-[50px] px-[20px] md:px-[100px] flex flex-col md:flex-row items-center gap-[20px] md:gap-[200px]">
-            <p className="text-[#FEFEFE] w-full font-bold font text-[50px] [text-shadow:3px_2px_0px_0px_#2D7CD0]">
-              Partner with us. Ride with us. Invest in the future.
-            </p>
-            <div className="w-full flex flex-col gap-[20px]">
-              <div>
-                <h2 className="text-[#FEFEFE] font-bold leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
-                  Available in your city:
-                </h2>
-                <h3 className="text-[#FEFEFE] font-normal leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
-                  55e Adebisi Omotola close, VI behind Zenith HQ
-                </h3>
-              </div>
-              <div>
-                <h2 className="text-[#FEFEFE] font-bold leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
-                  Contact us:
-                </h2>
-                <h3 className="text-[#FEFEFE] font-normal leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
-                  08132448005
-                </h3>
-              </div>
-              <div>
-                <h2 className="text-[#FEFEFE] font-bold leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
-                  Email:
-                </h2>
-                <h3 className="text-[#FEFEFE] font-normal leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
-                  info@kororyde.com
-                </h3>
-                <h3 className="text-[#FEFEFE] font-normal leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
-                  info@kororyde.com.ng
-                </h3>
-              </div>
-              <div>
-                <h2 className="text-[#FEFEFE] font-bold leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
-                  Visit:
-                </h2>
-                <h3 className="text-[#FEFEFE] font-normal leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
-                  www.kororyde.com
-                </h3>
-              </div>
-              <div>
-                <h2 className="text-[#FEFEFE] font-bold leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
-                  Follow us:
-                </h2>
-                <div className="text-[#FEFEFE] mt-[12.5px] flex items-center gap-[20px] font-normal leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
-                  <div>
-                    <Image src={facebook} alt="" />
-                  </div>
-                  <div>
-                    {" "}
-                    <Image src={twitter} alt="" />
-                  </div>
-                  <div>
-                    {" "}
-                    <Image src={linkedln} alt="" />
-                  </div>
-                  <div>
-                    <Image src={instagram} alt="" />
+              <p className="text-[#FEFEFE] w-full font-bold font text-[50px] [text-shadow:3px_2px_0px_0px_#2D7CD0]">
+                Partner with us. Ride with us. Invest in the future.
+              </p>
+              <div className="w-full flex flex-col gap-[20px]">
+                <div>
+                  <h2 className="text-[#FEFEFE] font-bold leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
+                    Available in your city:
+                  </h2>
+                  <h3 className="text-[#FEFEFE] font-normal leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
+                    55e Adebisi Omotola close, VI behind Zenith HQ
+                  </h3>
+                </div>
+                <div>
+                  <h2 className="text-[#FEFEFE] font-bold leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
+                    Contact us:
+                  </h2>
+                  <h3 className="text-[#FEFEFE] font-normal leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
+                    08132448005
+                  </h3>
+                </div>
+                <div>
+                  <h2 className="text-[#FEFEFE] font-bold leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
+                    Email:
+                  </h2>
+                  <h3 className="text-[#FEFEFE] font-normal leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
+                    info@kororyde.com
+                  </h3>
+                  <h3 className="text-[#FEFEFE] font-normal leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
+                    info@kororyde.com.ng
+                  </h3>
+                </div>
+                <div>
+                  <h2 className="text-[#FEFEFE] font-bold leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
+                    Visit:
+                  </h2>
+                  <h3 className="text-[#FEFEFE] font-normal leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
+                    www.kororyde.com
+                  </h3>
+                </div>
+                <div>
+                  <h2 className="text-[#FEFEFE] font-bold leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
+                    Follow us:
+                  </h2>
+                  <div className="text-[#FEFEFE] mt-[12.5px] flex items-center gap-[20px] font-normal leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">
+                    <div>
+                      <Image src={facebook} alt="" />
+                    </div>
+                    <div>
+                      {" "}
+                      <Image src={twitter} alt="" />
+                    </div>
+                    <div>
+                      {" "}
+                      <Image src={linkedln} alt="" />
+                    </div>
+                    <div>
+                      <Image src={instagram} alt="" />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
           </div>
 
           <FooterBg />
