@@ -51,9 +51,14 @@ export default function Navbar({ isHomePage }) {
               active={pathname == "/about-us"}
             />
             <NavItem
+              text={"CNG Loan"}
+              href={"/loan"}
+              active={pathname == "/loan"}
+            />
+             <NavItem
               text={"Contact"}
               href={"/contact-us"}
-              active={pathname == "contact-us"}
+              active={pathname == "/contact-us"}
             />
             <NavItem
               text={"Media"}

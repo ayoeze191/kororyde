@@ -39,10 +39,10 @@ const Footer = () => {
             <p className="text-[#FEFEFE] font-bold text-[1.125rem] leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] lg:text-center">Services</p>
             <hr className="border-[0.03125rem] lg:border-[0.0625rem] my-[1.25rem] border-[#FEFEFE]" />
             <div className="flex flex-col gap-[1.25rem] items-start lg:items-center">
-              <InteractiveLink text="Ride-hailing" href={'ride'} />
-              <InteractiveLink text="Delivery" href={'deli'} />
-              <InteractiveLink text="Private/Solo ride" href={'priv'} />
-      <InteractiveLink text="Co-Sharing ride" href={'co'}/>
+              <InteractiveLink text="Ride-hailing" href={'/services'} />
+              <InteractiveLink text="Delivery" href={'/services'} />
+              <InteractiveLink text="Private/Solo ride" href={'/services'} />
+      <InteractiveLink text="Co-Sharing ride" href={'/services'}/>
     </div>
   </div>
 
@@ -61,10 +61,10 @@ const Footer = () => {
       <p className="text-[#FEFEFE] font-bold text-[18px]  leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] lg:text-center">Resources</p>
       <hr className="border-[0.5px] lg:border-[1px] my-[1.25rem] border-[#FEFEFE]" />
       <div className="flex flex-col gap-[1.25rem]">
-            <InteractiveLink href="/blog" text="Blog" />
-            <InteractiveLink href="/faq" text="FAQ" />
-            <InteractiveLink href="/support" text="Support" />
-            <InteractiveLink href="/terms" text="Terms & Conditions" />
+            {/* <InteractiveLink href="/blog" text="Blog" /> */}
+            {/* <InteractiveLink href="/faq" text="FAQ" /> */}
+            <InteractiveLink href="/contact-us" text="Support" />
+            <InteractiveLink href="/contact-us" text="Terms & Conditions" />
       </div>
 </div>
 

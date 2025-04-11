@@ -33,6 +33,7 @@ const SideBar = ({show}) => {
          <p onClick={() => changeurl('/earn')} className="cursor-pointer">Earn with KoroRYDE</p>
          <p onClick={() => changeurl('/investments')} className="cursor-pointer">Invest</p>
          <p onClick={() => changeurl('/about-us')} className="cursor-pointer">About Us</p>
+         <p onClick={() => changeurl('/loan')} className="cursor-pointer">CNG Loan</p>
          <p onClick={() => changeurl('/contact-us')} className="cursor-pointer">Contact</p>
          <p onClick={() => changeurl('/media')} className="cursor-pointer">Media</p>
     </div>
