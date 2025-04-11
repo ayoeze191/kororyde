@@ -133,11 +133,11 @@ Application Today!
                            <div className="w-full flex flex-col gap-[20px]">
                                <div>
                                    <h2 className="text-[#FEFEFE] font-bold leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">Email us:</h2>
-                                   <h3 className="text-[#FEFEFE] font-normal leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">Send your CV to - careers@kororyde.com.ng </h3>
+                                   <h3 className="text-[#FEFEFE] font-normal leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">Send your CV to - info@kororyde.com </h3>
                                </div>
                                <div>
                                    <h2 className="text-[#FEFEFE] font-bold leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">Contact us:</h2>
-                                   <h3 className="text-[#FEFEFE] font-normal leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">+234 700 887 5665</h3>
+                                   <h3 className="text-[#FEFEFE] font-normal leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">08132448005</h3>
                                </div>
                                <div>
                                    <h2 className="text-[#FEFEFE] font-bold leading-[150%] font-[family-name:var(--font-bricolage-grotesque)] text-[18px]">Visit:</h2>
